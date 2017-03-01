@@ -1,4 +1,4 @@
-package GOM.APPR_28july2016.ontologyLoad;
+package COMPAREONTO;
 
 import java.util.ArrayList;
 

@@ -1,11 +1,8 @@
-package GOM.APPR_28july2016.ontologyLoad;
+package COMPAREONTO;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
-
-//import GOM.APPR_28july2016.ontologyLoad.UJSimilarityClass;
-//import GOM.APPR_28july2016.ontologyLoad.UJSimilarityOutPut;
 
 public class UJCreator 
 {
@@ -170,6 +167,6 @@ public class UJCreator
 		//WRITING TO JSON
 		
 		JSONIO jsonio = new JSONIO();
-		jsonio.write("UJOutput.json", al);        
+		jsonio.write("ALIGNMENT.json", al);        
 	}
 }

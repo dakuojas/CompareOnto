@@ -1,4 +1,4 @@
-package GOM.APPR_28july2016.ontologyLoad;
+package COMPAREONTO;
 
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -44,29 +44,5 @@ public class JSONIO {
         System.out.println(al);
         reader.close();
 	}
-//	public ArrayList<OJSimilarity> readOJ(String file) throws IOException
-//	{
-//		ArrayList<OJSimilarity> al = new ArrayList<>();
-//		System.out.println("----READING FROM JSON : "+file+"----");
-//        Reader reader = new FileReader(file);
-//        Gson gsonr = new GsonBuilder().setPrettyPrinting().create();
-//        Type collectionType = new TypeToken<ArrayList<OJSimilarity>>() {}.getType();
-//        al = gsonr.fromJson(reader, collectionType);
-//        reader.close();
-//        
-//        return al;
-//	}
-//	
-//	public ArrayList<UJSimilarity> readUJ(String file) throws IOException
-//	{
-//		ArrayList<UJSimilarity> al = new ArrayList<>();
-//		System.out.println("----READING FROM JSON : "+file+"----");
-//        Reader reader = new FileReader(file);
-//        Gson gsonr = new GsonBuilder().setPrettyPrinting().create();
-//        Type collectionType = new TypeToken<ArrayList<UJSimilarity>>() {}.getType();
-//        al = gsonr.fromJson(reader, collectionType);
-//        reader.close();
-//        
-//        return al;
-//	}
+
 }
