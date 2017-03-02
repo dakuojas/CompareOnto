@@ -62,15 +62,16 @@ public class CompareJSON
 //		System.out.println("INTERSECTION 1to1 : "+INTER1to1);
 		System.out.println("1to1 TP: "+INTER1to1.size());
 		
-//		PrecisionRecall(TP,FP,FN)
-//		YOU CAN ALSO PUT INTER1to1.size() , 
-//						 countinside(RMINA1to1),
-//						 countinside(AMINR1to1) 
-//						 as args
-		PrecisionRecall(INTERSECTION(alALIGN, alREF, ONE2ONE).size(),
-						countinside(DIFFERENCE(alREF, alALIGN, ONE2ONE)),
-						countinside(DIFFERENCE(alALIGN, alREF, ONE2ONE)));		
+//		FORMAT : PrecisionRecall(TP,FP,FN)
+//		PrecisionRecall(INTERSECTION(alALIGN, alREF, ONE2ONE).size(),
+//						countinside(DIFFERENCE(alREF, alALIGN, ONE2ONE)),
+//						countinside(DIFFERENCE(alALIGN, alREF, ONE2ONE)));
 		
+		
+		System.out.println("1to1 PRECISION :"+Precision(INTERSECTION(alALIGN, alREF, ONE2ONE).size(),
+														countinside(DIFFERENCE(alREF, alALIGN, ONE2ONE))));
+		System.out.println("1to1 RECALL :"+Recall(INTERSECTION(alALIGN, alREF, ONE2ONE).size(),
+										   countinside(DIFFERENCE(alALIGN, alREF, ONE2ONE))));
 		
 		System.out.println("--------------------1tom-------------------------");		
 
@@ -92,19 +93,36 @@ public class CompareJSON
 //		System.out.println("INTERSECTION 1tom : "+INTER1tom);
 		System.out.println("1tom TP: "+INTER1tom.size());
 
-//		YOU CAN ALSO PUT INTER1tom.size() , 
-//		 				 countinside(RMINA1tom),
-//		 				 countinside(AMINR1tom) 
-//		 				 as args
-		PrecisionRecall(INTERSECTION(alALIGN, alREF, ONE2MANY).size(),
-				countinside(DIFFERENCE(alREF, alALIGN, ONE2MANY)),
-				countinside(DIFFERENCE(alALIGN, alREF, ONE2MANY)));		
+//		FORMAT : PrecisionRecall(TP,FP,FN)
+//		PrecisionRecall(INTERSECTION(alALIGN, alREF, ONE2MANY).size(),
+//				countinside(DIFFERENCE(alREF, alALIGN, ONE2MANY)),
+//				countinside(DIFFERENCE(alALIGN, alREF, ONE2MANY)));
+		
+		System.out.println("1tom PRECISION :"+Precision(INTERSECTION(alALIGN, alREF, ONE2MANY).size(),
+											 			countinside(DIFFERENCE(alREF, alALIGN, ONE2MANY))));
+		System.out.println("1tom RECALL :"+Recall(INTERSECTION(alALIGN, alREF, ONE2MANY).size(),
+												  countinside(DIFFERENCE(alALIGN, alREF, ONE2MANY))));
+
 				
 	}
 	
 //---------------------------FUNCTIONS----------------------------------------------
-	
-	
+	//RETURNING FUNCTION FOR PRECISION 
+	public static double Precision(double TP , double FP)
+	{
+		double precision = 0.0;
+		precision = TP/(TP+FP);
+		return precision;
+
+	}
+	//RETURNING METHOD FOR RECALL
+	public static double Recall(double TP , double FN) 
+	{
+		double recall = 0.0;
+		recall = TP/(TP+FN);
+		return recall;
+	}
+	//NON RETURNING PRECISION AND RECALL
 	public static void PrecisionRecall(double TP , double FP , double FN)
 	{
 		double precision = 0.0;
