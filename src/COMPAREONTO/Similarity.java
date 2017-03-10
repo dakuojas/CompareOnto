@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class Similarity 
 {
-	String node1;
-	ArrayList<String> node2_1to1 = new ArrayList<>();
-	ArrayList<String> node2_1tom = new ArrayList<>();
+	public String node1;
+	public ArrayList<String> node2_1to1 = new ArrayList<>();
+	public ArrayList<String> node2_1tom = new ArrayList<>();
 	
 	public Similarity() 
 	{

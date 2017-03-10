@@ -1,5 +1,7 @@
 package COMPAREONTO;
 
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -103,7 +105,18 @@ public class CompareJSON
 		System.out.println("1tom RECALL :"+Recall(INTERSECTION(alALIGN, alREF, ONE2MANY).size(),
 												  countinside(DIFFERENCE(alALIGN, alREF, ONE2MANY))));
 
-				
+		double precision = Precision(INTERSECTION(alALIGN, alREF, ONE2MANY).size(),countinside(DIFFERENCE(alREF, alALIGN, ONE2MANY)));
+		double recall = Recall(INTERSECTION(alALIGN, alREF, ONE2MANY).size(),countinside(DIFFERENCE(alALIGN, alREF, ONE2MANY)));
+		
+		
+		
+		File file = new File("PrecRec.txt");
+		file.createNewFile();
+	    FileWriter writer = new FileWriter(file); 
+	    writer.write(precision+"\n"+recall);
+	    writer.flush();
+	    writer.close();
+	    System.out.println("Written Precision and Recall to : "+file);
 	}
 	
 //---------------------------FUNCTIONS----------------------------------------------
