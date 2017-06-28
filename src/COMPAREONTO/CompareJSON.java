@@ -22,11 +22,11 @@ public class CompareJSON
 //		USE THIS TO CREATE "ALIGNMENT.json". SEE UJCreator.java
 //		UJCreator ujc = new UJCreator();	
 		
-//		String file1 = "REFERENCE.json";
-//		String file2 = "ALIGNMENT.json";
+		String file1 = "REFERENCE.json";
+		String file2 = "ALIGNMENT.json";
 		
-		String file1 = "Reference_NDBC-GomooSe.json";
-		String file2 = "Output_TAVPPRp_NDBC-GomooSe.json";
+//		String file1 = "Reference_NDBC-GomooSe.json";
+//		String file2 = "Output_TAVPPRp_NDBC-GomooSe.json";
 
 		JSONIO jsonio = new JSONIO();
 		
