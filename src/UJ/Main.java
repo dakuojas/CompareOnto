@@ -1,6 +1,6 @@
 package UJ;
 
-public class MAin {
+public class Main {
 	public static boolean isBlankOrNull(String str) {
 	    boolean flag=false;
 	    if(str==null || str.equalsIgnoreCase("null")||str.length()<=1 || str.isEmpty() ||"".equals(str.trim()))

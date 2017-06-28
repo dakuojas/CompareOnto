@@ -2,7 +2,7 @@ package UJ;
 
 import java.util.ArrayList;
 
-public class SpacialyRelatedNode {
+public class SpaciallyRelatedNode {
 	
 	public String NodeS = "";
 	public double Rank;
