@@ -1,0 +1,464 @@
+[
+  {
+    "Node1": "SubjectArea",
+    "Node2_1tom": [
+      "RejectRating",
+      "AcceptRating",
+      "WeekRejectRating",
+      "RejectedPaper",
+      "MealBreak",
+      "BreakEvent"
+    ],
+    "Node2_1to1": [
+      "RejectRating"
+    ]
+  },
+  {
+    "Node1": "Preference",
+    "Node2_1tom": [
+      "Presenter",
+      "ConferenceVenuePlace",
+      "RejectedPaper",
+      "ConferenceEvent",
+      "Call",
+      "ConferenceDinner"
+    ],
+    "Node2_1to1": [
+      "Presenter"
+    ]
+  },
+  {
+    "Node1": "Person",
+    "Node2_1tom": [
+      "Person",
+      "PersonalHistory",
+      "Attendee",
+      "PersonalReviewHistory",
+      "PersonalPublicationHistory",
+      "ComputerNetworksSensorTopic"
+    ],
+    "Node2_1to1": [
+      "Person"
+    ]
+  },
+  {
+    "Node1": "ConferenceMember",
+    "Node2_1tom": [
+      "ConferenceChair",
+      "ConferenceVenuePlace",
+      "ConferenceSession",
+      "TwoLevelConference",
+      "SingleLevelConference",
+      "FreeTimeBreak"
+    ],
+    "Node2_1to1": [
+      "ConferenceChair"
+    ]
+  },
+  {
+    "Node1": "Author",
+    "Node2_1tom": [
+      "Person",
+      "Presenter",
+      "Country",
+      "AcceptRating",
+      "ComputerArchitectureTopic",
+      "Attendee"
+    ],
+    "Node2_1to1": [
+      "Person"
+    ]
+  },
+  {
+    "Node1": "AuthorNotReviewer",
+    "Node2_1tom": [
+      "Author",
+      "PersonalReviewHistory",
+      "ReviewRating",
+      "ComputerNetworksEnterpriseTopic",
+      "TextualReviewQuestion",
+      "ReviewQuestion"
+    ],
+    "Node2_1to1": [
+      "Author"
+    ]
+  },
+  {
+    "Node1": "Co-author",
+    "Node2_1tom": [
+      "Author",
+      "Country",
+      "CommunicationTheoryTopic",
+      "ComputerArchitectureTopic",
+      "ContactInformation",
+      "ComputerNetworksOpticalTopic"
+    ],
+    "Node2_1to1": [
+      "Author"
+    ]
+  },
+  {
+    "Node1": "AssociatedChair",
+    "Node2_1tom": [
+      "SessionChair",
+      "SatelliteAndSpaceCommunicationsTopic",
+      "AcademiaOrganization",
+      "WirelessCommunicationsTopic",
+      "RadioCommunicationsTopic",
+      "CADTopic"
+    ],
+    "Node2_1to1": [
+      "SessionChair"
+    ]
+  },
+  {
+    "Node1": "ConferenceChair",
+    "Node2_1tom": [
+      "ConferenceChair",
+      "ConferenceSession",
+      "ConferenceVenuePlace",
+      "ConferenceEvent",
+      "Reception",
+      "PerformanceTopic"
+    ],
+    "Node2_1to1": [
+      "ConferenceChair"
+    ]
+  },
+  {
+    "Node1": "Reviewer",
+    "Node2_1tom": [
+      "Reviewer",
+      "ReviewQuestion",
+      "FreeTimeBreak",
+      "WeekRejectRating",
+      "Presenter",
+      "NumericalReviewQuestion"
+    ],
+    "Node2_1to1": [
+      "Reviewer"
+    ]
+  },
+  {
+    "Node1": "Meta-Reviewer",
+    "Node2_1tom": [
+      "Reviewer",
+      "FreeTimeBreak",
+      "Review",
+      "WeekRejectRating",
+      "ReviewForm",
+      "BreakEvent"
+    ],
+    "Node2_1to1": [
+      "Reviewer"
+    ]
+  },
+  {
+    "Node1": "ProgramCommitteeMember",
+    "Node2_1tom": [
+      "MeetingRoomPlace",
+      "Programme",
+      "ComputerNetworksManagementTopic",
+      "ComputerNetworksMeasurementsTopic",
+      "AccpetIfRoomRating",
+      "FreeTimeBreak"
+    ],
+    "Node2_1to1": [
+      "MeetingRoomPlace"
+    ]
+  },
+  {
+    "Node1": "ProgramCommitteeChair",
+    "Node2_1tom": [
+      "Programme",
+      "MeetingRoomPlace",
+      "PerformanceTopic",
+      "ComputerArchitectureTopic",
+      "ComputerNetworksManagementTopic",
+      "CommunicationTheoryTopic"
+    ],
+    "Node2_1to1": [
+      "Programme"
+    ]
+  },
+  {
+    "Node1": "Chairman",
+    "Node2_1tom": [
+      "AcademiaOrganization",
+      "CallForManuscripts",
+      "AccommodationPlace",
+      "Author",
+      "Presenter",
+      "OrganizationalMeeting"
+    ],
+    "Node2_1to1": [
+      "AcademiaOrganization"
+    ]
+  },
+  {
+    "Node1": "ExternalReviewer",
+    "Node2_1tom": [
+      "WeekRejectRating",
+      "Review",
+      "FreeTimeBreak",
+      "Presenter",
+      "BreakEvent",
+      "RejectRating"
+    ],
+    "Node2_1to1": [
+      "WeekRejectRating"
+    ]
+  },
+  {
+    "Node1": "User",
+    "Node2_1tom": [
+      "Author",
+      "Presenter",
+      "Reviewer",
+      "Excursion",
+      "Attendee",
+      "ComputerNetworksMeasurementsTopic"
+    ],
+    "Node2_1to1": [
+      "Author"
+    ]
+  },
+  {
+    "Node1": "Author",
+    "Node2_1tom": [
+      "Person",
+      "Presenter",
+      "Country",
+      "AcceptRating",
+      "ComputerArchitectureTopic",
+      "Attendee"
+    ],
+    "Node2_1to1": [
+      "Person"
+    ]
+  },
+  {
+    "Node1": "AuthorNotReviewer",
+    "Node2_1tom": [
+      "Author",
+      "PersonalReviewHistory",
+      "ReviewRating",
+      "ComputerNetworksEnterpriseTopic",
+      "TextualReviewQuestion",
+      "ReviewQuestion"
+    ],
+    "Node2_1to1": [
+      "Author"
+    ]
+  },
+  {
+    "Node1": "Co-author",
+    "Node2_1tom": [
+      "Author",
+      "Country",
+      "CommunicationTheoryTopic",
+      "ComputerArchitectureTopic",
+      "ContactInformation",
+      "ComputerNetworksOpticalTopic"
+    ],
+    "Node2_1to1": [
+      "Author"
+    ]
+  },
+  {
+    "Node1": "Reviewer",
+    "Node2_1tom": [
+      "Reviewer",
+      "ReviewQuestion",
+      "FreeTimeBreak",
+      "WeekRejectRating",
+      "Presenter",
+      "NumericalReviewQuestion"
+    ],
+    "Node2_1to1": [
+      "Reviewer"
+    ]
+  },
+  {
+    "Node1": "Meta-Reviewer",
+    "Node2_1tom": [
+      "Reviewer",
+      "FreeTimeBreak",
+      "Review",
+      "WeekRejectRating",
+      "ReviewForm",
+      "BreakEvent"
+    ],
+    "Node2_1to1": [
+      "Reviewer"
+    ]
+  },
+  {
+    "Node1": "Administrator",
+    "Node2_1tom": [
+      "Person",
+      "IndustryOrganization",
+      "AcademiaOrganization",
+      "OrganizationalMeeting",
+      "Organization",
+      "ParallelAndDistributedComputingTopic"
+    ],
+    "Node2_1to1": [
+      "Person"
+    ]
+  },
+  {
+    "Node1": "Decision",
+    "Node2_1tom": [
+      "MedicineTopic",
+      "WirelessCommunicationsTopic",
+      "PowerlineTransmissionTopic",
+      "SessionChair",
+      "SignalProcessingTopic",
+      "RadioCommunicationsTopic"
+    ],
+    "Node2_1to1": [
+      "MedicineTopic"
+    ]
+  },
+  {
+    "Node1": "Rejection",
+    "Node2_1tom": [
+      "RejectRating",
+      "Call",
+      "ComputerNetworksEnterpriseTopic",
+      "ConferenceEvent",
+      "RejectedPaper",
+      "Organization"
+    ],
+    "Node2_1to1": [
+      "RejectRating"
+    ]
+  },
+  {
+    "Node1": "Acceptance",
+    "Node2_1tom": [
+      "Reception",
+      "Sponsorship",
+      "AcceptedPaper",
+      "AcademicEvent",
+      "Call",
+      "Document"
+    ],
+    "Node2_1to1": [
+      "Reception"
+    ]
+  },
+  {
+    "Node1": "Bid",
+    "Node2_1tom": [
+      "Call",
+      "Organization",
+      "Programme",
+      "Place",
+      "Topic",
+      "Review"
+    ],
+    "Node2_1to1": [
+      "Call"
+    ]
+  },
+  {
+    "Node1": "Document",
+    "Node2_1tom": [
+      "Document",
+      "Paper",
+      "Review",
+      "Call",
+      "ComputerNetworksManagementTopic",
+      "Place"
+    ],
+    "Node2_1to1": [
+      "Document"
+    ]
+  },
+  {
+    "Node1": "Review",
+    "Node2_1tom": [
+      "Review",
+      "ReviewQuestion",
+      "Programme",
+      "Document",
+      "Organization",
+      "NumericalReviewQuestion"
+    ],
+    "Node2_1to1": [
+      "Review"
+    ]
+  },
+  {
+    "Node1": "Meta-Review",
+    "Node2_1tom": [
+      "Review",
+      "Reviewer",
+      "FreeTimeBreak",
+      "WeekRejectRating",
+      "MealEvent",
+      "BreakEvent"
+    ],
+    "Node2_1to1": [
+      "Review"
+    ]
+  },
+  {
+    "Node1": "Paper",
+    "Node2_1tom": [
+      "Paper",
+      "RatedPapers",
+      "ActivePaper",
+      "Document",
+      "PublishedPaper",
+      "PendingPaper"
+    ],
+    "Node2_1to1": [
+      "Paper"
+    ]
+  },
+  {
+    "Node1": "PaperFullVersion",
+    "Node2_1tom": [
+      "Paper",
+      "PaperPresentation",
+      "CallForPapers",
+      "PersonalReviewHistory",
+      "CallForReviews",
+      "PublishedPaper"
+    ],
+    "Node2_1to1": [
+      "Paper"
+    ]
+  },
+  {
+    "Node1": "PaperAbstract",
+    "Node2_1tom": [
+      "Paper",
+      "PaperPresentation",
+      "AcceptRating",
+      "RatedPapers",
+      "ActivePaper",
+      "AcceptedPaper"
+    ],
+    "Node2_1to1": [
+      "Paper"
+    ]
+  },
+  {
+    "Node1": "ProgramCommittee",
+    "Node2_1tom": [
+      "MeetingRoomPlace",
+      "Programme",
+      "ComputerNetworksManagementTopic",
+      "AccpetIfRoomRating",
+      "ComputerNetworksMeasurementsTopic",
+      "PerformanceTopic"
+    ],
+    "Node2_1to1": [
+      "MeetingRoomPlace"
+    ]
+  }
+]

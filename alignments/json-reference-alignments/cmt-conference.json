@@ -1,0 +1,93 @@
+[
+	
+		{ 	"node1": "Conference", 
+			"node2_1to1" :["Conference_volume"],
+			"node2_1tom": [""]
+		}
+	,
+	
+		{	"node1": "Preference",
+			"node2_1to1":["Review_preference"],
+			"node2_1tom" : [""]
+        }
+	,
+	 
+		{ 	"node1": "Author", 
+			"node2_1to1" :["Regular_author"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Person", 
+			"node2_1to1" :["Person"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "email", 
+			"node2_1to1" :["has_an_email"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Co-author", 
+			"node2_1to1" :["Contribution_co-author"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "PaperAbstract", 
+			"node2_1to1" :["Abstract"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Document", 
+			"node2_1to1" :["Conference_document"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Review", 
+			"node2_1to1" :["Review"],
+			"node2_1tom": [""]
+		}
+	,
+
+	 
+		{ 	"node1": "Conference", 
+			"node2_1to1" :["Conference"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "ProgramCommittee", 
+			"node2_1to1" :["Program_committee"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Chairman", 
+			"node2_1to1" :["Chair"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "SubjectArea", 
+			"node2_1to1" :["Topic"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "assignedByReviewer", 
+			"node2_1to1" :["invited_by"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "assignExternalReviewer", 
+			"node2_1to1" :["invites_co-reviewers"],
+			"node2_1tom": [""]
+		}
+	
+]

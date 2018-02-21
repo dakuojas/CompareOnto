@@ -1,0 +1,68 @@
+[
+	
+		{ 	"node1": "Document", 
+			"node2_1to1" :["Document"],
+			"node2_1tom": [""]
+		}
+	,
+	
+		{	"node1": "ConferenceMembe",
+			"node2_1to1":["Conference_Participant"],
+			"node2_1tom" : [""]
+        }
+	,
+	 
+		{ 	"node1": "Author", 
+			"node2_1to1" :["Paper_Author"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "writtenBy", 
+			"node2_1to1" :["reviewWrittenBy"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "hasBeenAssigned", 
+			"node2_1to1" :["reviewerOfPaper"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Person", 
+			"node2_1to1" :["Person"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Conference", 
+			"node2_1to1" :["Conference"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "assignedTo", 
+			"node2_1to1" :["hasReviewer"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Review", 
+			"node2_1to1" :["Review"],
+			"node2_1tom": [""]
+		}
+	,
+
+	 
+		{ 	"node1": "Paper", 
+			"node2_1to1" :["Paper"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "PaperFullVersion", 
+			"node2_1to1" :["Regular_Paper"],
+			"node2_1tom": [""]
+		}
+]

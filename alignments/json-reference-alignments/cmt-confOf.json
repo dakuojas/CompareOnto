@@ -1,0 +1,98 @@
+[
+	
+		{ 	"node1": "ProgramCommitteeChair", 
+			"node2_1to1" :["Chair_PC"],
+			"node2_1tom": [""]
+		}
+	,
+	
+		{	"node1": "writePaper",
+			"node2_1to1":["writes"],
+			"node2_1tom" : [""]
+        }
+	,
+	 
+		{ 	"node1": "Author", 
+			"node2_1to1" :["Author"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "ConferenceMember", 
+			"node2_1to1" :["Member"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Administrator", 
+			"node2_1to1" :["Administrator"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "title", 
+			"node2_1to1" :["hasTitle"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "SubjectArea", 
+			"node2_1to1" :["Topic"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "PaperFullVersion", 
+			"node2_1to1" :["Paper"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "hasBeenAssigned", 
+			"node2_1to1" :["reviewes"],
+			"node2_1tom": [""]
+		}
+	,
+
+	 
+		{ 	"node1": "hasAuthor", 
+			"node2_1to1" :["writtenBy"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Conference", 
+			"node2_1to1" :["Conference"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "ProgramCommitteeMember", 
+			"node2_1to1" :["Member_PC"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "hasSubjectArea", 
+			"node2_1to1" :["dealsWith"],
+			"node2_1tom": [""]
+		}
+    ,
+    
+        { 	"node1": "Person", 
+			"node2_1to1" :["Person"],
+			"node2_1tom": [""]
+		}
+    ,
+    
+		{ 	"node1": "Paper", 
+			"node2_1to1" :["Contribution"],
+			"node2_1tom": [""]
+		}
+    ,
+    
+        { 	"node1": "email", 
+			"node2_1to1" :["hasEmail"],
+			"node2_1tom": [""]
+		}
+]

@@ -1,0 +1,154 @@
+[
+	
+		{ 	"node1": "Information_for_participants", 
+			"node2_1to1" :["Programme_Brochure"],
+			"node2_1tom": [""]
+		}
+	,
+	
+		{	"node1": "Person",
+			"node2_1to1":["Person"],
+			"node2_1tom" : [""]
+        }
+	,
+	 
+		{ 	"node1": "Tutorial", 
+			"node2_1to1" :["Tutorial"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Review", 
+			"node2_1to1" :["Review"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "has_a_review", 
+			"node2_1to1" :["hasReview"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Workshop", 
+			"node2_1to1" :["Workshop"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Late_paid_applicant", 
+			"node2_1to1" :["Late-Registered_Participant"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Early_paid_applicant", 
+			"node2_1to1" :["arly-Registered_Participant"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Organization", 
+			"node2_1to1" :["Organisation"],
+			"node2_1tom": [""]
+		}
+	,
+
+	 
+		{ 	"node1": "Track-workshop_chair", 
+			"node2_1to1" :["Workshop_Chair"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Abstract", 
+			"node2_1to1" :["Abstract"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Conference_proceedings", 
+			"node2_1to1" :["Conference_Proceedings"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Conference_volume", 
+			"node2_1to1" :["Conference"],
+			"node2_1tom": [""]
+		}
+	,
+	
+		{	"node1": "Rejected_contribution",
+			"node2_1to1":["Rejected_Paper"],
+			"node2_1tom" : [""]
+        }
+	,
+	 
+		{ 	"node1": "Poster", 
+			"node2_1to1" :["Poster_Paper"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Track", 
+			"node2_1to1" :["Track"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Topic", 
+			"node2_1to1" :["Research_Topic"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Conference_www", 
+			"node2_1to1" :["Web_Site"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Invited_speaker", 
+			"node2_1to1" :["Invited_Speaker"],
+			"node2_1tom": [""]
+		}
+	,
+	
+		{	"node1": "contributes",
+			"node2_1to1":["authorOf"],
+			"node2_1tom" : [""]
+        }
+	,
+	 
+		{ 	"node1": "Accepted_contribution", 
+			"node2_1to1" :["Accepted_Paper"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Conference_document", 
+			"node2_1to1" :["Document"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Reviewed_contribution", 
+			"node2_1to1" :["Evaluated_Paper"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Submitted_contribution", 
+			"node2_1to1" :["Submitted_Paper"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Regular_author", 
+			"node2_1to1" :["Paper_Author"],
+			"node2_1tom": [""]
+		}
+	
+	
+]

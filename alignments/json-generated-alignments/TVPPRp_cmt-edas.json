@@ -1,0 +1,1337 @@
+[
+  {
+    "node1": "TwoLevelConference",
+    "node2_1tom": [
+      "Chairman",
+      "ExternalReviewer",
+      "Preference",
+      "ProgramCommitteeMember",
+      "ConferenceMember"
+    ],
+    "node2_1to1": [
+      "Chairman"
+    ]
+  },
+  {
+    "node1": "ReviewRating",
+    "node2_1tom": [
+      "Review",
+      "Reviewer",
+      "Preference",
+      "ExternalReviewer",
+      "Meta-Review"
+    ],
+    "node2_1to1": [
+      "Review"
+    ]
+  },
+  {
+    "node1": "AcceptRating",
+    "node2_1tom": [
+      "Acceptance",
+      "Chairman",
+      "Rejection",
+      "PaperAbstract",
+      "Meta-Review"
+    ],
+    "node2_1to1": [
+      "Acceptance"
+    ]
+  },
+  {
+    "node1": "WeekRejectRating",
+    "node2_1tom": [
+      "Rejection",
+      "Acceptance",
+      "Meta-Reviewer",
+      "PaperAbstract",
+      "Chairman"
+    ],
+    "node2_1to1": [
+      "Rejection"
+    ]
+  },
+  {
+    "node1": "RejectRating",
+    "node2_1tom": [
+      "Rejection",
+      "Acceptance",
+      "PaperAbstract",
+      "Review",
+      "PaperFullVersion"
+    ],
+    "node2_1to1": [
+      "Rejection"
+    ]
+  },
+  {
+    "node1": "AccpetIfRoomRating",
+    "node2_1tom": [
+      "Chairman",
+      "Acceptance",
+      "Meta-Reviewer",
+      "ProgramCommittee",
+      "Review"
+    ],
+    "node2_1to1": [
+      "Chairman"
+    ]
+  },
+  {
+    "node1": "ReviewQuestion",
+    "node2_1tom": [
+      "Review",
+      "Decision",
+      "Preference",
+      "SubjectArea",
+      "Reviewer"
+    ],
+    "node2_1to1": [
+      "Review"
+    ]
+  },
+  {
+    "node1": "NumericalReviewQuestion",
+    "node2_1tom": [
+      "ExternalReviewer",
+      "Meta-Review",
+      "Reviewer",
+      "AuthorNotReviewer",
+      "Meta-Reviewer"
+    ],
+    "node2_1to1": [
+      "ExternalReviewer"
+    ]
+  },
+  {
+    "node1": "TextualReviewQuestion",
+    "node2_1tom": [
+      "ExternalReviewer",
+      "Meta-Review",
+      "Review",
+      "Rejection",
+      "ProgramCommitteeChair"
+    ],
+    "node2_1to1": [
+      "ExternalReviewer"
+    ]
+  },
+  {
+    "node1": "ReviewForm",
+    "node2_1tom": [
+      "Review",
+      "ProgramCommittee",
+      "Preference",
+      "Reviewer",
+      "AuthorNotReviewer"
+    ],
+    "node2_1to1": [
+      "Review"
+    ]
+  },
+  {
+    "node1": "PersonalHistory",
+    "node2_1tom": [
+      "Person",
+      "PaperFullVersion",
+      "ProgramCommittee",
+      "Decision",
+      "SubjectArea"
+    ],
+    "node2_1to1": [
+      "Person"
+    ]
+  },
+  {
+    "node1": "PersonalReviewHistory",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "ExternalReviewer",
+      "Person",
+      "PaperFullVersion",
+      "Reviewer"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "PersonalPublicationHistory",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "ExternalReviewer",
+      "Person",
+      "PaperFullVersion",
+      "ConferenceMember"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "Country",
+    "node2_1tom": [
+      "Document",
+      "SubjectArea",
+      "Preference",
+      "Co-author",
+      "Person"
+    ],
+    "node2_1to1": [
+      "Document"
+    ]
+  },
+  {
+    "node1": "Reviewer",
+    "node2_1tom": [
+      "ExternalReviewer",
+      "Preference",
+      "ConferenceMember",
+      "Reviewer",
+      "Author"
+    ],
+    "node2_1to1": [
+      "ExternalReviewer"
+    ]
+  },
+  {
+    "node1": "SingleLevelConference",
+    "node2_1tom": [
+      "Chairman",
+      "ExternalReviewer",
+      "Preference",
+      "ProgramCommitteeMember",
+      "ConferenceMember"
+    ],
+    "node2_1to1": [
+      "Chairman"
+    ]
+  },
+  {
+    "node1": "Document",
+    "node2_1tom": [
+      "Document",
+      "Decision",
+      "Acceptance",
+      "Bid",
+      "Paper"
+    ],
+    "node2_1to1": [
+      "Document"
+    ]
+  },
+  {
+    "node1": "MealMenu",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "Review",
+      "Meta-Review",
+      "ExternalReviewer",
+      "Administrator"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "SlideSet",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "Bid",
+      "Review",
+      "Document",
+      "ExternalReviewer"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "Review",
+    "node2_1tom": [
+      "Review",
+      "ProgramCommitteeChair",
+      "ExternalReviewer",
+      "ConferenceChair",
+      "Administrator"
+    ],
+    "node2_1to1": [
+      "Review"
+    ]
+  },
+  {
+    "node1": "Paper",
+    "node2_1tom": [
+      "Paper",
+      "Review",
+      "ProgramCommitteeChair",
+      "PaperAbstract",
+      "ExternalReviewer"
+    ],
+    "node2_1to1": [
+      "Paper"
+    ]
+  },
+  {
+    "node1": "PublishedPaper",
+    "node2_1tom": [
+      "PaperFullVersion",
+      "PaperAbstract",
+      "Administrator",
+      "AssociatedChair",
+      "Paper"
+    ],
+    "node2_1to1": [
+      "PaperFullVersion"
+    ]
+  },
+  {
+    "node1": "ActivePaper",
+    "node2_1tom": [
+      "PaperAbstract",
+      "Acceptance",
+      "Paper",
+      "ExternalReviewer",
+      "ProgramCommitteeChair"
+    ],
+    "node2_1to1": [
+      "PaperAbstract"
+    ]
+  },
+  {
+    "node1": "RatedPapers",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "AssociatedChair",
+      "Paper",
+      "PaperAbstract",
+      "Meta-Review"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "RejectedPaper",
+    "node2_1tom": [
+      "Administrator",
+      "Rejection",
+      "ExternalReviewer",
+      "Acceptance",
+      "PaperAbstract"
+    ],
+    "node2_1to1": [
+      "Administrator"
+    ]
+  },
+  {
+    "node1": "AcceptedPaper",
+    "node2_1tom": [
+      "Acceptance",
+      "PaperAbstract",
+      "AssociatedChair",
+      "Administrator",
+      "PaperFullVersion"
+    ],
+    "node2_1to1": [
+      "Acceptance"
+    ]
+  },
+  {
+    "node1": "WithdrawnPaper",
+    "node2_1tom": [
+      "Paper",
+      "PaperAbstract",
+      "Administrator",
+      "PaperFullVersion",
+      "Chairman"
+    ],
+    "node2_1to1": [
+      "Paper"
+    ]
+  },
+  {
+    "node1": "PendingPaper",
+    "node2_1tom": [
+      "Paper",
+      "ConferenceChair",
+      "Person",
+      "PaperFullVersion",
+      "PaperAbstract"
+    ],
+    "node2_1to1": [
+      "Paper"
+    ]
+  },
+  {
+    "node1": "Programme",
+    "node2_1tom": [
+      "Review",
+      "ProgramCommittee",
+      "ProgramCommitteeChair",
+      "Chairman",
+      "ExternalReviewer"
+    ],
+    "node2_1to1": [
+      "Review"
+    ]
+  },
+  {
+    "node1": "Sponsorship",
+    "node2_1tom": [
+      "Bid",
+      "Acceptance",
+      "Decision",
+      "SubjectArea",
+      "ProgramCommittee"
+    ],
+    "node2_1to1": [
+      "Bid"
+    ]
+  },
+  {
+    "node1": "TravelGrant",
+    "node2_1tom": [
+      "ExternalReviewer",
+      "ProgramCommitteeChair",
+      "PaperAbstract",
+      "Paper",
+      "PaperFullVersion"
+    ],
+    "node2_1to1": [
+      "ExternalReviewer"
+    ]
+  },
+  {
+    "node1": "Person",
+    "node2_1tom": [
+      "Person",
+      "Decision",
+      "Preference",
+      "User",
+      "Bid"
+    ],
+    "node2_1to1": [
+      "Person"
+    ]
+  },
+  {
+    "node1": "ConferenceChair",
+    "node2_1tom": [
+      "ConferenceChair",
+      "ConferenceMember",
+      "PaperAbstract",
+      "ProgramCommitteeChair",
+      "PaperFullVersion"
+    ],
+    "node2_1to1": [
+      "ConferenceChair"
+    ]
+  },
+  {
+    "node1": "TPCMember",
+    "node2_1tom": [
+      "ConferenceMember",
+      "ExternalReviewer",
+      "ProgramCommitteeMember",
+      "ProgramCommitteeChair",
+      "PaperAbstract"
+    ],
+    "node2_1to1": [
+      "ConferenceMember"
+    ]
+  },
+  {
+    "node1": "SessionChair",
+    "node2_1tom": [
+      "AssociatedChair",
+      "ExternalReviewer",
+      "ConferenceMember",
+      "User",
+      "Chairman"
+    ],
+    "node2_1to1": [
+      "AssociatedChair"
+    ]
+  },
+  {
+    "node1": "Attendee",
+    "node2_1tom": [
+      "Person",
+      "ExternalReviewer",
+      "ProgramCommitteeChair",
+      "PaperAbstract",
+      "PaperFullVersion"
+    ],
+    "node2_1to1": [
+      "Person"
+    ]
+  },
+  {
+    "node1": "ConferenceEvent",
+    "node2_1tom": [
+      "Preference",
+      "ConferenceMember",
+      "Document",
+      "Bid",
+      "ProgramCommittee"
+    ],
+    "node2_1to1": [
+      "Preference"
+    ]
+  },
+  {
+    "node1": "AcademicEvent",
+    "node2_1tom": [
+      "Chairman",
+      "Acceptance",
+      "Review",
+      "Paper",
+      "AssociatedChair"
+    ],
+    "node2_1to1": [
+      "Chairman"
+    ]
+  },
+  {
+    "node1": "OrganizationalMeeting",
+    "node2_1tom": [
+      "Acceptance",
+      "Administrator",
+      "ProgramCommitteeChair",
+      "Rejection",
+      "AssociatedChair"
+    ],
+    "node2_1to1": [
+      "Acceptance"
+    ]
+  },
+  {
+    "node1": "Workshop",
+    "node2_1tom": [
+      "Bid",
+      "ProgramCommitteeChair",
+      "Rejection",
+      "Acceptance",
+      "ConferenceChair"
+    ],
+    "node2_1to1": [
+      "Bid"
+    ]
+  },
+  {
+    "node1": "TalkEvent",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "ConferenceChair",
+      "Acceptance",
+      "Review",
+      "Paper"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "WelcomeTalk",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "PaperFullVersion",
+      "Document",
+      "Meta-Reviewer",
+      "ConferenceChair"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "ClosingTalk",
+    "node2_1tom": [
+      "PaperFullVersion",
+      "Decision",
+      "ProgramCommitteeChair",
+      "ConferenceChair",
+      "AssociatedChair"
+    ],
+    "node2_1to1": [
+      "PaperFullVersion"
+    ]
+  },
+  {
+    "node1": "PaperPresentation",
+    "node2_1tom": [
+      "Paper",
+      "ConferenceChair",
+      "AssociatedChair",
+      "Administrator",
+      "PaperAbstract"
+    ],
+    "node2_1to1": [
+      "Paper"
+    ]
+  },
+  {
+    "node1": "NonAcademicEvent",
+    "node2_1tom": [
+      "Chairman",
+      "Paper",
+      "ProgramCommitteeMember",
+      "Review",
+      "ConferenceMember"
+    ],
+    "node2_1to1": [
+      "Chairman"
+    ]
+  },
+  {
+    "node1": "SocialEvent",
+    "node2_1tom": [
+      "Document",
+      "Author",
+      "Review",
+      "Reviewer",
+      "Paper"
+    ],
+    "node2_1to1": [
+      "Document"
+    ]
+  },
+  {
+    "node1": "Reception",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "Rejection",
+      "ConferenceChair",
+      "Paper",
+      "Meta-Reviewer"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "Excursion",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "Meta-Review",
+      "Review",
+      "Bid",
+      "Rejection"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "BreakEvent",
+    "node2_1tom": [
+      "ConferenceMember",
+      "Author",
+      "ProgramCommitteeChair",
+      "ProgramCommitteeMember",
+      "ExternalReviewer"
+    ],
+    "node2_1to1": [
+      "ConferenceMember"
+    ]
+  },
+  {
+    "node1": "FreeTimeBreak",
+    "node2_1tom": [
+      "Preference",
+      "ProgramCommitteeChair",
+      "Meta-Reviewer",
+      "Reviewer",
+      "ExternalReviewer"
+    ],
+    "node2_1to1": [
+      "Preference"
+    ]
+  },
+  {
+    "node1": "MealBreak",
+    "node2_1tom": [
+      "Meta-Review",
+      "Meta-Reviewer",
+      "ProgramCommitteeChair",
+      "ExternalReviewer",
+      "Paper"
+    ],
+    "node2_1to1": [
+      "Meta-Review"
+    ]
+  },
+  {
+    "node1": "CoffeeBreak",
+    "node2_1tom": [
+      "ConferenceChair",
+      "ProgramCommitteeChair",
+      "Meta-Reviewer",
+      "AuthorNotReviewer",
+      "Co-author"
+    ],
+    "node2_1to1": [
+      "ConferenceChair"
+    ]
+  },
+  {
+    "node1": "MealEvent",
+    "node2_1tom": [
+      "Meta-Review",
+      "Author",
+      "ProgramCommitteeMember",
+      "Reviewer",
+      "Paper"
+    ],
+    "node2_1to1": [
+      "Meta-Review"
+    ]
+  },
+  {
+    "node1": "ConferenceDinner",
+    "node2_1tom": [
+      "ConferenceChair",
+      "Preference",
+      "ConferenceMember",
+      "Rejection",
+      "ExternalReviewer"
+    ],
+    "node2_1to1": [
+      "ConferenceChair"
+    ]
+  },
+  {
+    "node1": "ContactInformation",
+    "node2_1tom": [
+      "ProgramCommittee",
+      "Bid",
+      "Preference",
+      "Document",
+      "ConferenceMember"
+    ],
+    "node2_1to1": [
+      "ProgramCommittee"
+    ]
+  },
+  {
+    "node1": "Organization",
+    "node2_1tom": [
+      "Bid",
+      "Decision",
+      "Preference",
+      "Rejection",
+      "Acceptance"
+    ],
+    "node2_1to1": [
+      "Bid"
+    ]
+  },
+  {
+    "node1": "AcademiaOrganization",
+    "node2_1tom": [
+      "Chairman",
+      "ProgramCommitteeChair",
+      "AssociatedChair",
+      "Administrator",
+      "Acceptance"
+    ],
+    "node2_1to1": [
+      "Chairman"
+    ]
+  },
+  {
+    "node1": "GovernmentOrganization",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "Administrator",
+      "ConferenceChair",
+      "Rejection",
+      "PaperAbstract"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "NGO",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "Paper",
+      "Bid",
+      "AssociatedChair",
+      "Decision"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "IndustryOrganization",
+    "node2_1tom": [
+      "Administrator",
+      "ProgramCommitteeChair",
+      "AssociatedChair",
+      "PaperAbstract",
+      "Co-author"
+    ],
+    "node2_1to1": [
+      "Administrator"
+    ]
+  },
+  {
+    "node1": "Author",
+    "node2_1tom": [
+      "ExternalReviewer",
+      "User",
+      "Bid",
+      "ProgramCommitteeChair",
+      "Person"
+    ],
+    "node2_1to1": [
+      "ExternalReviewer"
+    ]
+  },
+  {
+    "node1": "Presenter",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "Person",
+      "ExternalReviewer",
+      "Administrator",
+      "ConferenceChair"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "Call",
+    "node2_1tom": [
+      "Bid",
+      "Decision",
+      "ProgramCommittee",
+      "Document",
+      "Person"
+    ],
+    "node2_1to1": [
+      "Bid"
+    ]
+  },
+  {
+    "node1": "CallForPapers",
+    "node2_1tom": [
+      "Chairman",
+      "ProgramCommitteeChair",
+      "PaperFullVersion",
+      "ConferenceChair",
+      "AssociatedChair"
+    ],
+    "node2_1to1": [
+      "Chairman"
+    ]
+  },
+  {
+    "node1": "CallForReviews",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "ConferenceChair",
+      "AssociatedChair",
+      "Meta-Review",
+      "PaperFullVersion"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "CallForManuscripts",
+    "node2_1tom": [
+      "Chairman",
+      "ProgramCommitteeChair",
+      "PaperFullVersion",
+      "AssociatedChair",
+      "Rejection"
+    ],
+    "node2_1to1": [
+      "Chairman"
+    ]
+  },
+  {
+    "node1": "Topic",
+    "node2_1tom": [
+      "Bid",
+      "Document",
+      "ProgramCommittee",
+      "Decision",
+      "Person"
+    ],
+    "node2_1to1": [
+      "Bid"
+    ]
+  },
+  {
+    "node1": "MedicineTopic",
+    "node2_1tom": [
+      "Decision",
+      "ExternalReviewer",
+      "Administrator",
+      "Bid",
+      "ProgramCommittee"
+    ],
+    "node2_1to1": [
+      "Decision"
+    ]
+  },
+  {
+    "node1": "ParallelAndDistributedComputingTopic",
+    "node2_1tom": [
+      "ConferenceChair",
+      "PaperFullVersion",
+      "Administrator",
+      "PaperAbstract",
+      "AssociatedChair"
+    ],
+    "node2_1to1": [
+      "ConferenceChair"
+    ]
+  },
+  {
+    "node1": "SignalProcessingTopic",
+    "node2_1tom": [
+      "Decision",
+      "PaperFullVersion",
+      "Administrator",
+      "AssociatedChair",
+      "ConferenceChair"
+    ],
+    "node2_1to1": [
+      "Decision"
+    ]
+  },
+  {
+    "node1": "CommunicationTheoryTopic",
+    "node2_1tom": [
+      "ProgramCommittee",
+      "Administrator",
+      "ConferenceChair",
+      "ExternalReviewer",
+      "Chairman"
+    ],
+    "node2_1to1": [
+      "ProgramCommittee"
+    ]
+  },
+  {
+    "node1": "CommunicationsTopic",
+    "node2_1tom": [
+      "Administrator",
+      "ProgramCommittee",
+      "ConferenceChair",
+      "ExternalReviewer",
+      "Chairman"
+    ],
+    "node2_1to1": [
+      "Administrator"
+    ]
+  },
+  {
+    "node1": "MicroelectronicsTopic",
+    "node2_1tom": [
+      "Decision",
+      "Administrator",
+      "ProgramCommittee",
+      "Rejection",
+      "Acceptance"
+    ],
+    "node2_1to1": [
+      "Decision"
+    ]
+  },
+  {
+    "node1": "RadioCommunicationsTopic",
+    "node2_1tom": [
+      "ConferenceChair",
+      "ExternalReviewer",
+      "Administrator",
+      "AssociatedChair",
+      "Chairman"
+    ],
+    "node2_1to1": [
+      "ConferenceChair"
+    ]
+  },
+  {
+    "node1": "SatelliteAndSpaceCommunicationsTopic",
+    "node2_1tom": [
+      "ProgramCommittee",
+      "ConferenceChair",
+      "Administrator",
+      "AssociatedChair",
+      "Decision"
+    ],
+    "node2_1to1": [
+      "ProgramCommittee"
+    ]
+  },
+  {
+    "node1": "SecurityTopic",
+    "node2_1tom": [
+      "Administrator",
+      "Decision",
+      "ConferenceChair",
+      "AssociatedChair",
+      "ProgramCommittee"
+    ],
+    "node2_1to1": [
+      "Administrator"
+    ]
+  },
+  {
+    "node1": "CADTopic",
+    "node2_1tom": [
+      "ExternalReviewer",
+      "Chairman",
+      "Administrator",
+      "Bid",
+      "ProgramCommittee"
+    ],
+    "node2_1to1": [
+      "ExternalReviewer"
+    ]
+  },
+  {
+    "node1": "ComputerArchitectureTopic",
+    "node2_1tom": [
+      "ProgramCommittee",
+      "Administrator",
+      "ConferenceChair",
+      "Acceptance",
+      "ExternalReviewer"
+    ],
+    "node2_1to1": [
+      "ProgramCommittee"
+    ]
+  },
+  {
+    "node1": "PowerlineTransmissionTopic",
+    "node2_1tom": [
+      "PaperFullVersion",
+      "PaperAbstract",
+      "Decision",
+      "Administrator",
+      "ProgramCommittee"
+    ],
+    "node2_1to1": [
+      "PaperFullVersion"
+    ]
+  },
+  {
+    "node1": "WirelessCommunicationsTopic",
+    "node2_1tom": [
+      "Decision",
+      "PaperFullVersion",
+      "ConferenceChair",
+      "Administrator",
+      "AssociatedChair"
+    ],
+    "node2_1to1": [
+      "Decision"
+    ]
+  },
+  {
+    "node1": "PerformanceTopic",
+    "node2_1tom": [
+      "ConferenceChair",
+      "Administrator",
+      "Person",
+      "PaperFullVersion",
+      "ProgramCommitteeChair"
+    ],
+    "node2_1to1": [
+      "ConferenceChair"
+    ]
+  },
+  {
+    "node1": "MobileComputingTopic",
+    "node2_1tom": [
+      "ExternalReviewer",
+      "ProgramCommittee",
+      "Administrator",
+      "Chairman",
+      "Decision"
+    ],
+    "node2_1to1": [
+      "ExternalReviewer"
+    ]
+  },
+  {
+    "node1": "MultimediaTopic",
+    "node2_1tom": [
+      "ConferenceChair",
+      "Administrator",
+      "AssociatedChair",
+      "ExternalReviewer",
+      "Chairman"
+    ],
+    "node2_1to1": [
+      "ConferenceChair"
+    ]
+  },
+  {
+    "node1": "TestOnlyTopic",
+    "node2_1tom": [
+      "Administrator",
+      "ProgramCommittee",
+      "ExternalReviewer",
+      "Person",
+      "Decision"
+    ],
+    "node2_1to1": [
+      "Administrator"
+    ]
+  },
+  {
+    "node1": "ComputerNetworksTopic",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "Review",
+      "Paper",
+      "ProgramCommitteeMember",
+      "ProgramCommittee"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "ComputerNetworksSwitchingTopic",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "Administrator",
+      "AssociatedChair",
+      "AuthorNotReviewer",
+      "Co-author"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "ComputerNetworksAapplicationsTopic",
+    "node2_1tom": [
+      "Administrator",
+      "ProgramCommitteeChair",
+      "AssociatedChair",
+      "PaperAbstract",
+      "PaperFullVersion"
+    ],
+    "node2_1to1": [
+      "Administrator"
+    ]
+  },
+  {
+    "node1": "ComputerNetworksMeasurementsTopic",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "ProgramCommitteeMember",
+      "Administrator",
+      "PaperFullVersion",
+      "PaperAbstract"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "ComputerNetworksSecurityTopic",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "Administrator",
+      "PaperFullVersion",
+      "AuthorNotReviewer",
+      "PaperAbstract"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "ComputerNetworksOpticalTopic",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "Administrator",
+      "PaperAbstract",
+      "Co-author",
+      "AuthorNotReviewer"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "ComputerNetworksEnterpriseTopic",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "Administrator",
+      "ProgramCommitteeMember",
+      "PaperFullVersion",
+      "ConferenceChair"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "ComputerNetworksManagementTopic",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "ProgramCommitteeMember",
+      "Administrator",
+      "ProgramCommittee",
+      "ConferenceChair"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "ComputerNetworksSensorTopic",
+    "node2_1tom": [
+      "ProgramCommitteeChair",
+      "Administrator",
+      "ProgramCommitteeMember",
+      "PaperFullVersion",
+      "ConferenceChair"
+    ],
+    "node2_1to1": [
+      "ProgramCommitteeChair"
+    ]
+  },
+  {
+    "node1": "OperatingTopicsystems",
+    "node2_1tom": [
+      "ConferenceChair",
+      "ProgramCommittee",
+      "AssociatedChair",
+      "Administrator",
+      "PaperAbstract"
+    ],
+    "node2_1to1": [
+      "ConferenceChair"
+    ]
+  },
+  {
+    "node1": "CryptographyTopic",
+    "node2_1tom": [
+      "ProgramCommittee",
+      "ExternalReviewer",
+      "Administrator",
+      "Chairman",
+      "ProgramCommitteeChair"
+    ],
+    "node2_1to1": [
+      "ProgramCommittee"
+    ]
+  },
+  {
+    "node1": "AntennasTopic",
+    "node2_1tom": [
+      "Administrator",
+      "ProgramCommittee",
+      "Decision",
+      "ConferenceChair",
+      "AssociatedChair"
+    ],
+    "node2_1to1": [
+      "Administrator"
+    ]
+  },
+  {
+    "node1": "Place",
+    "node2_1tom": [
+      "Bid",
+      "Decision",
+      "Document",
+      "ProgramCommittee",
+      "Paper"
+    ],
+    "node2_1to1": [
+      "Bid"
+    ]
+  },
+  {
+    "node1": "AccommodationPlace",
+    "node2_1tom": [
+      "Acceptance",
+      "ProgramCommitteeChair",
+      "PaperAbstract",
+      "Document",
+      "PaperFullVersion"
+    ],
+    "node2_1to1": [
+      "Acceptance"
+    ]
+  },
+  {
+    "node1": "DiningPlace",
+    "node2_1tom": [
+      "Decision",
+      "Administrator",
+      "PaperFullVersion",
+      "PaperAbstract",
+      "Acceptance"
+    ],
+    "node2_1to1": [
+      "Decision"
+    ]
+  },
+  {
+    "node1": "ConferenceVenuePlace",
+    "node2_1tom": [
+      "ConferenceMember",
+      "ConferenceChair",
+      "PaperFullVersion",
+      "PaperAbstract",
+      "Rejection"
+    ],
+    "node2_1to1": [
+      "ConferenceMember"
+    ]
+  },
+  {
+    "node1": "MeetingRoomPlace",
+    "node2_1tom": [
+      "Rejection",
+      "ProgramCommitteeChair",
+      "PaperAbstract",
+      "ExternalReviewer",
+      "PaperFullVersion"
+    ],
+    "node2_1to1": [
+      "Rejection"
+    ]
+  },
+  {
+    "node1": "ConferenceSession",
+    "node2_1tom": [
+      "ConferenceChair",
+      "ProgramCommittee",
+      "ConferenceMember",
+      "Decision",
+      "Bid"
+    ],
+    "node2_1to1": [
+      "ConferenceChair"
+    ]
+  },
+  { 	
+    "node1": "hasConferenceMember", 
+			"node2_1to1" :["hasMember"],
+			"node2_1tom": [""]
+		},
+			{ 	"node1": "memberOfConference", 
+			"node2_1to1" :["isMemberOf"],
+			"node2_1tom": [""]
+		}
+]

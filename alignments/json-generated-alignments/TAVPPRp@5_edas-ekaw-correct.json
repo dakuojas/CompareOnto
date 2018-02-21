@@ -1,0 +1,1430 @@
+[
+  {
+    "Node1": "TwoLevelConference",
+    "Node2_1tom": [
+      "Conference",
+      "Conference_Proceedings",
+      "Conference_Banquet",
+      "Conference_Trip",
+      "Conference_Paper",
+      "Social_Event"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "ReviewRating",
+    "Node2_1tom": [
+      "Negative_Review",
+      "Invited_Speaker",
+      "Presenter",
+      "Possible_Reviewer",
+      "Positive_Review",
+      "Rejected_Paper"
+    ],
+    "Node2_1to1": [
+      "Negative_Review"
+    ]
+  },
+  {
+    "Node1": "AcceptRating",
+    "Node2_1tom": [
+      "Rejected_Paper",
+      "Conference_Participant",
+      "Research_Topic",
+      "Late-Registered_Participant",
+      "Evaluated_Paper",
+      "Early-Registered_Participant"
+    ],
+    "Node2_1to1": [
+      "Rejected_Paper"
+    ]
+  },
+  {
+    "Node1": "WeekRejectRating",
+    "Node2_1tom": [
+      "Rejected_Paper",
+      "Presenter",
+      "Neutral_Review",
+      "Negative_Review",
+      "Review",
+      "Event"
+    ],
+    "Node2_1to1": [
+      "Rejected_Paper"
+    ]
+  },
+  {
+    "Node1": "RejectRating",
+    "Node2_1tom": [
+      "Presenter",
+      "Research_Institute",
+      "Neutral_Review",
+      "Research_Topic",
+      "Late-Registered_Participant",
+      "Early-Registered_Participant"
+    ],
+    "Node2_1to1": [
+      "Presenter"
+    ]
+  },
+  {
+    "Node1": "AccpetIfRoomRating",
+    "Node2_1tom": [
+      "Research_Topic",
+      "Conference_Participant",
+      "Accepted_Paper",
+      "Late-Registered_Participant",
+      "Early-Registered_Participant",
+      "Conference_Trip"
+    ],
+    "Node2_1to1": [
+      "Research_Topic"
+    ]
+  },
+  {
+    "Node1": "ReviewQuestion",
+    "Node2_1tom": [
+      "Review",
+      "Positive_Review",
+      "Negative_Review",
+      "Possible_Reviewer",
+      "Neutral_Review",
+      "Invited_Speaker"
+    ],
+    "Node2_1to1": [
+      "Review"
+    ]
+  },
+  {
+    "Node1": "NumericalReviewQuestion",
+    "Node2_1tom": [
+      "Neutral_Review",
+      "Negative_Review",
+      "Invited_Speaker",
+      "Research_Institute",
+      "University",
+      "Individual_Presentation"
+    ],
+    "Node2_1to1": [
+      "Neutral_Review"
+    ]
+  },
+  {
+    "Node1": "TextualReviewQuestion",
+    "Node2_1tom": [
+      "Neutral_Review",
+      "Research_Institute",
+      "Negative_Review",
+      "Invited_Speaker",
+      "Social_Event",
+      "Positive_Review"
+    ],
+    "Node2_1to1": [
+      "Neutral_Review"
+    ]
+  },
+  {
+    "Node1": "ReviewForm",
+    "Node2_1tom": [
+      "Possible_Reviewer",
+      "Positive_Review",
+      "Neutral_Review",
+      "Negative_Review",
+      "Programme_Brochure",
+      "Conference_Trip"
+    ],
+    "Node2_1to1": [
+      "Possible_Reviewer"
+    ]
+  },
+  {
+    "Node1": "PersonalHistory",
+    "Node2_1tom": [
+      "Person",
+      "Poster_Session",
+      "Workshop_Session",
+      "Regular_Session",
+      "Session_Chair",
+      "Industrial_Session"
+    ],
+    "Node2_1to1": [
+      "Person"
+    ]
+  },
+  {
+    "Node1": "PersonalReviewHistory",
+    "Node2_1tom": [
+      "Possible_Reviewer",
+      "Person",
+      "Proceedings_Publisher",
+      "Positive_Review",
+      "Regular_Session",
+      "Early-Registered_Participant"
+    ],
+    "Node2_1to1": [
+      "Possible_Reviewer"
+    ]
+  },
+  {
+    "Node1": "PersonalPublicationHistory",
+    "Node2_1tom": [
+      "Person",
+      "Organisation",
+      "Industrial_Paper",
+      "Individual_Presentation",
+      "Location",
+      "Tutorial_Chair"
+    ],
+    "Node2_1to1": [
+      "Person"
+    ]
+  },
+  {
+    "Node1": "Country",
+    "Node2_1tom": [
+      "Location",
+      "Organisation",
+      "Contributed_Talk",
+      "Conference",
+      "Track",
+      "Document"
+    ],
+    "Node2_1to1": [
+      "Location"
+    ]
+  },
+  {
+    "Node1": "Reviewer",
+    "Node2_1tom": [
+      "Possible_Reviewer",
+      "Negative_Review",
+      "Neutral_Review",
+      "Presenter",
+      "Positive_Review",
+      "Invited_Speaker"
+    ],
+    "Node2_1to1": [
+      "Possible_Reviewer"
+    ]
+  },
+  {
+    "Node1": "SingleLevelConference",
+    "Node2_1tom": [
+      "Conference_Proceedings",
+      "Conference",
+      "Conference_Session",
+      "Conference_Banquet",
+      "Social_Event",
+      "Conference_Trip"
+    ],
+    "Node2_1to1": [
+      "Conference_Proceedings"
+    ]
+  },
+  {
+    "Node1": "Document",
+    "Node2_1tom": [
+      "Document",
+      "Early-Registered_Participant",
+      "Late-Registered_Participant",
+      "Review",
+      "Paper",
+      "Proceedings"
+    ],
+    "Node2_1to1": [
+      "Document"
+    ]
+  },
+  {
+    "Node1": "MealMenu",
+    "Node2_1tom": [
+      "Agency_Staff_Member",
+      "SC_Member",
+      "OC_Member",
+      "PC_Member",
+      "Neutral_Review",
+      "Document"
+    ],
+    "Node2_1to1": [
+      "Agency_Staff_Member"
+    ]
+  },
+  {
+    "Node1": "SlideSet",
+    "Node2_1tom": [
+      "Industrial_Session",
+      "Demo_Session",
+      "Poster_Session",
+      "Possible_Reviewer",
+      "Web_Site",
+      "Social_Event"
+    ],
+    "Node2_1to1": [
+      "Industrial_Session"
+    ]
+  },
+  {
+    "Node1": "Review",
+    "Node2_1tom": [
+      "Neutral_Review",
+      "Abstract",
+      "Possible_Reviewer",
+      "Social_Event",
+      "Document",
+      "Organisation"
+    ],
+    "Node2_1to1": [
+      "Neutral_Review"
+    ]
+  },
+  {
+    "Node1": "Paper",
+    "Node2_1tom": [
+      "Paper",
+      "Track",
+      "Organisation",
+      "Web_Site",
+      "University",
+      "Conference"
+    ],
+    "Node2_1to1": [
+      "Paper"
+    ]
+  },
+  {
+    "Node1": "PublishedPaper",
+    "Node2_1tom": [
+      "Proceedings_Publisher",
+      "Paper",
+      "Submitted_Paper",
+      "Industrial_Paper",
+      "Poster_Paper",
+      "Demo_Paper"
+    ],
+    "Node2_1to1": [
+      "Proceedings_Publisher"
+    ]
+  },
+  {
+    "Node1": "ActivePaper",
+    "Node2_1tom": [
+      "Accepted_Paper",
+      "Evaluated_Paper",
+      "Rejected_Paper",
+      "Paper",
+      "Late-Registered_Participant",
+      "Early-Registered_Participant"
+    ],
+    "Node2_1to1": [
+      "Accepted_Paper"
+    ]
+  },
+  {
+    "Node1": "RatedPapers",
+    "Node2_1tom": [
+      "Paper",
+      "Camera_Ready_Paper",
+      "Rejected_Paper",
+      "Poster_Paper",
+      "Regular_Paper",
+      "Evaluated_Paper"
+    ],
+    "Node2_1to1": [
+      "Paper"
+    ]
+  },
+  {
+    "Node1": "RejectedPaper",
+    "Node2_1tom": [
+      "Presenter",
+      "Conference_Paper",
+      "Accepted_Paper",
+      "Demo_Paper",
+      "Poster_Paper",
+      "Paper"
+    ],
+    "Node2_1to1": [
+      "Presenter"
+    ]
+  },
+  {
+    "Node1": "AcceptedPaper",
+    "Node2_1tom": [
+      "Rejected_Paper",
+      "Paper",
+      "Evaluated_Paper",
+      "Conference_Paper",
+      "Demo_Paper",
+      "Camera_Ready_Paper"
+    ],
+    "Node2_1to1": [
+      "Rejected_Paper"
+    ]
+  },
+  {
+    "Node1": "WithdrawnPaper",
+    "Node2_1tom": [
+      "Industrial_Paper",
+      "Paper_Author",
+      "Early-Registered_Participant",
+      "Paper",
+      "Late-Registered_Participant",
+      "Workshop_Paper"
+    ],
+    "Node2_1to1": [
+      "Industrial_Paper"
+    ]
+  },
+  {
+    "Node1": "PendingPaper",
+    "Node2_1tom": [
+      "Paper",
+      "Proceedings",
+      "Assigned_Paper",
+      "Conference_Paper",
+      "Demo_Paper",
+      "Industrial_Paper"
+    ],
+    "Node2_1to1": [
+      "Paper"
+    ]
+  },
+  {
+    "Node1": "Programme",
+    "Node2_1tom": [
+      "Programme_Brochure",
+      "Social_Event",
+      "Review",
+      "Abstract",
+      "Event",
+      "Demo_Paper"
+    ],
+    "Node2_1to1": [
+      "Programme_Brochure"
+    ]
+  },
+  {
+    "Node1": "Sponsorship",
+    "Node2_1tom": [
+      "Workshop_Session",
+      "Poster_Session",
+      "Person",
+      "Location",
+      "Organisation",
+      "Session"
+    ],
+    "Node2_1to1": [
+      "Workshop_Session"
+    ]
+  },
+  {
+    "Node1": "TravelGrant",
+    "Node2_1tom": [
+      "Late-Registered_Participant",
+      "Early-Registered_Participant",
+      "Tutorial_Abstract",
+      "Invited_Talk_Abstract",
+      "Track",
+      "Neutral_Review"
+    ],
+    "Node2_1to1": [
+      "Late-Registered_Participant"
+    ]
+  },
+  {
+    "Node1": "Person",
+    "Node2_1tom": [
+      "Individual_Presentation",
+      "Poster_Session",
+      "Proceedings",
+      "Poster_Paper",
+      "Conference_Session",
+      "Workshop_Session"
+    ],
+    "Node2_1to1": [
+      "Individual_Presentation"
+    ]
+  },
+  {
+    "Node1": "ConferenceChair",
+    "Node2_1tom": [
+      "Conference_Participant",
+      "Conference_Proceedings",
+      "Conference_Banquet",
+      "Conference_Session",
+      "Research_Topic",
+      "Proceedings"
+    ],
+    "Node2_1to1": [
+      "Conference_Participant"
+    ]
+  },
+  {
+    "Node1": "TPCMember",
+    "Node2_1tom": [
+      "SC_Member",
+      "OC_Member",
+      "Rejected_Paper",
+      "Programme_Brochure",
+      "Agency_Staff_Member",
+      "Presenter"
+    ],
+    "Node2_1to1": [
+      "SC_Member"
+    ]
+  },
+  {
+    "Node1": "SessionChair",
+    "Node2_1tom": [
+      "Industrial_Session",
+      "Poster_Session",
+      "Workshop_Session",
+      "Regular_Session",
+      "Demo_Session",
+      "Conference_Session"
+    ],
+    "Node2_1to1": [
+      "Industrial_Session"
+    ]
+  },
+  {
+    "Node1": "Attendee",
+    "Node2_1tom": [
+      "Person",
+      "Early-Registered_Participant",
+      "Late-Registered_Participant",
+      "Conference_Participant",
+      "Event",
+      "Student"
+    ],
+    "Node2_1to1": [
+      "Person"
+    ]
+  },
+  {
+    "Node1": "ConferenceEvent",
+    "Node2_1tom": [
+      "Conference",
+      "Conference_Session",
+      "Conference_Trip",
+      "Conference_Paper",
+      "Conference_Participant",
+      "Presenter"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "AcademicEvent",
+    "Node2_1tom": [
+      "Academic_Institution",
+      "Social_Event",
+      "Conference_Participant",
+      "Scientific_Event",
+      "Negative_Review",
+      "Conference_Banquet"
+    ],
+    "Node2_1to1": [
+      "Academic_Institution"
+    ]
+  },
+  {
+    "Node1": "OrganizationalMeeting",
+    "Node2_1tom": [
+      "Individual_Presentation",
+      "Late-Registered_Participant",
+      "Organising_Agency",
+      "Academic_Institution",
+      "Early-Registered_Participant",
+      "Social_Event"
+    ],
+    "Node2_1to1": [
+      "Individual_Presentation"
+    ]
+  },
+  {
+    "Node1": "Workshop",
+    "Node2_1tom": [
+      "Workshop_Chair",
+      "Organisation",
+      "Review",
+      "Event",
+      "Track",
+      "Proceedings"
+    ],
+    "Node2_1to1": [
+      "Workshop_Chair"
+    ]
+  },
+  {
+    "Node1": "TalkEvent",
+    "Node2_1tom": [
+      "Event",
+      "Invited_Talk",
+      "Social_Event",
+      "Invited_Talk_Abstract",
+      "Contributed_Talk",
+      "Invited_Speaker"
+    ],
+    "Node2_1to1": [
+      "Event"
+    ]
+  },
+  {
+    "Node1": "WelcomeTalk",
+    "Node2_1tom": [
+      "Social_Event",
+      "Contributed_Talk",
+      "Web_Site",
+      "Document",
+      "Neutral_Review",
+      "OC_Member"
+    ],
+    "Node2_1to1": [
+      "Social_Event"
+    ]
+  },
+  {
+    "Node1": "ClosingTalk",
+    "Node2_1tom": [
+      "Contributed_Talk",
+      "Invited_Talk",
+      "Organisation",
+      "Social_Event",
+      "Invited_Talk_Abstract",
+      "Industrial_Session"
+    ],
+    "Node2_1to1": [
+      "Contributed_Talk"
+    ]
+  },
+  {
+    "Node1": "PaperPresentation",
+    "Node2_1tom": [
+      "Poster_Paper",
+      "Paper",
+      "Presenter",
+      "Conference_Participant",
+      "Late-Registered_Participant",
+      "Paper_Author"
+    ],
+    "Node2_1to1": [
+      "Poster_Paper"
+    ]
+  },
+  {
+    "Node1": "NonAcademicEvent",
+    "Node2_1tom": [
+      "Conference_Banquet",
+      "Conference_Participant",
+      "Social_Event",
+      "Conference",
+      "Conference_Proceedings",
+      "Scientific_Event"
+    ],
+    "Node2_1to1": [
+      "Conference_Banquet"
+    ]
+  },
+  {
+    "Node1": "SocialEvent",
+    "Node2_1tom": [
+      "Scientific_Event",
+      "Conference_Session",
+      "Invited_Speaker",
+      "Individual_Presentation",
+      "Negative_Review",
+      "Conference_Participant"
+    ],
+    "Node2_1to1": [
+      "Scientific_Event"
+    ]
+  },
+  {
+    "Node1": "Reception",
+    "Node2_1tom": [
+      "Conference_Participant",
+      "Conference_Proceedings",
+      "Conference_Paper",
+      "Proceedings",
+      "Conference",
+      "Research_Topic"
+    ],
+    "Node2_1to1": [
+      "Conference_Participant"
+    ]
+  },
+  {
+    "Node1": "Excursion",
+    "Node2_1tom": [
+      "Person",
+      "Conference_Session",
+      "Session",
+      "Conference_Proceedings",
+      "Proceedings",
+      "Regular_Session"
+    ],
+    "Node2_1to1": [
+      "Person"
+    ]
+  },
+  {
+    "Node1": "BreakEvent",
+    "Node2_1tom": [
+      "Event",
+      "Negative_Review",
+      "Invited_Speaker",
+      "Neutral_Review",
+      "Presenter",
+      "Conference_Banquet"
+    ],
+    "Node2_1to1": [
+      "Event"
+    ]
+  },
+  {
+    "Node1": "FreeTimeBreak",
+    "Node2_1tom": [
+      "Presenter",
+      "Neutral_Review",
+      "Invited_Speaker",
+      "Negative_Review",
+      "Review",
+      "Possible_Reviewer"
+    ],
+    "Node2_1to1": [
+      "Presenter"
+    ]
+  },
+  {
+    "Node1": "MealBreak",
+    "Node2_1tom": [
+      "Camera_Ready_Paper",
+      "Evaluated_Paper",
+      "Agency_Staff_Member",
+      "Regular_Paper",
+      "Neutral_Review",
+      "Abstract"
+    ],
+    "Node2_1to1": [
+      "Camera_Ready_Paper"
+    ]
+  },
+  {
+    "Node1": "CoffeeBreak",
+    "Node2_1tom": [
+      "Conference",
+      "Conference_Paper",
+      "Conference_Banquet",
+      "Conference_Participant",
+      "Conference_Proceedings",
+      "Contributed_Talk"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "MealEvent",
+    "Node2_1tom": [
+      "Event",
+      "Negative_Review",
+      "Social_Event",
+      "Neutral_Review",
+      "Evaluated_Paper",
+      "Invited_Speaker"
+    ],
+    "Node2_1to1": [
+      "Event"
+    ]
+  },
+  {
+    "Node1": "ConferenceDinner",
+    "Node2_1tom": [
+      "Conference_Trip",
+      "Conference_Session",
+      "Conference_Banquet",
+      "Conference_Participant",
+      "Proceedings",
+      "Presenter"
+    ],
+    "Node2_1to1": [
+      "Conference_Trip"
+    ]
+  },
+  {
+    "Node1": "ContactInformation",
+    "Node2_1tom": [
+      "Organisation",
+      "Academic_Institution",
+      "Conference_Participant",
+      "Contributed_Talk",
+      "Conference_Session",
+      "Conference_Banquet"
+    ],
+    "Node2_1to1": [
+      "Organisation"
+    ]
+  },
+  {
+    "Node1": "Organization",
+    "Node2_1tom": [
+      "Organisation",
+      "University",
+      "Conference",
+      "Organising_Agency",
+      "Event",
+      "Review"
+    ],
+    "Node2_1to1": [
+      "Organisation"
+    ]
+  },
+  {
+    "Node1": "AcademiaOrganization",
+    "Node2_1tom": [
+      "Organisation",
+      "Academic_Institution",
+      "Individual_Presentation",
+      "Organising_Agency",
+      "Tutorial_Chair",
+      "Conference_Participant"
+    ],
+    "Node2_1to1": [
+      "Organisation"
+    ]
+  },
+  {
+    "Node1": "GovernmentOrganization",
+    "Node2_1tom": [
+      "Organisation",
+      "Organising_Agency",
+      "Individual_Presentation",
+      "Conference_Participant",
+      "Academic_Institution",
+      "Conference_Trip"
+    ],
+    "Node2_1to1": [
+      "Organisation"
+    ]
+  },
+  {
+    "Node1": "NGO",
+    "Node2_1tom": [
+      "Conference",
+      "University",
+      "Paper",
+      "Session",
+      "Negative_Review",
+      "Organising_Agency"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "IndustryOrganization",
+    "Node2_1tom": [
+      "Individual_Presentation",
+      "Industrial_Paper",
+      "Industrial_Session",
+      "Academic_Institution",
+      "University",
+      "Tutorial_Chair"
+    ],
+    "Node2_1to1": [
+      "Individual_Presentation"
+    ]
+  },
+  {
+    "Node1": "Author",
+    "Node2_1tom": [
+      "Person",
+      "Presenter",
+      "Tutorial_Chair",
+      "Tutorial",
+      "Tutorial_Abstract",
+      "Student"
+    ],
+    "Node2_1to1": [
+      "Person"
+    ]
+  },
+  {
+    "Node1": "Presenter",
+    "Node2_1tom": [
+      "Presenter",
+      "Rejected_Paper",
+      "Conference_Paper",
+      "Conference_Trip",
+      "Possible_Reviewer",
+      "Invited_Speaker"
+    ],
+    "Node2_1to1": [
+      "Presenter"
+    ]
+  },
+  {
+    "Node1": "Call",
+    "Node2_1tom": [
+      "Session",
+      "Document",
+      "Paper",
+      "Event",
+      "Organisation",
+      "Social_Event"
+    ],
+    "Node2_1to1": [
+      "Session"
+    ]
+  },
+  {
+    "Node1": "CallForPapers",
+    "Node2_1tom": [
+      "Regular_Paper",
+      "Paper",
+      "Paper_Author",
+      "Accepted_Paper",
+      "Camera_Ready_Paper",
+      "Evaluated_Paper"
+    ],
+    "Node2_1to1": [
+      "Regular_Paper"
+    ]
+  },
+  {
+    "Node1": "CallForReviews",
+    "Node2_1tom": [
+      "Neutral_Review",
+      "Possible_Reviewer",
+      "Review",
+      "Flyer",
+      "Social_Event",
+      "Conference_Trip"
+    ],
+    "Node2_1to1": [
+      "Neutral_Review"
+    ]
+  },
+  {
+    "Node1": "CallForManuscripts",
+    "Node2_1tom": [
+      "Tutorial_Chair",
+      "Industrial_Paper",
+      "Tutorial_Abstract",
+      "Conference_Participant",
+      "Tutorial",
+      "Early-Registered_Participant"
+    ],
+    "Node2_1to1": [
+      "Tutorial_Chair"
+    ]
+  },
+  {
+    "Node1": "Topic",
+    "Node2_1tom": [
+      "Abstract",
+      "Document",
+      "Organisation",
+      "Flyer",
+      "Event",
+      "Review"
+    ],
+    "Node2_1to1": [
+      "Abstract"
+    ]
+  },
+  {
+    "Node1": "MedicineTopic",
+    "Node2_1tom": [
+      "Scientific_Event",
+      "Academic_Institution",
+      "Conference_Participant",
+      "Proceedings",
+      "Individual_Presentation",
+      "Conference_Trip"
+    ],
+    "Node2_1to1": [
+      "Scientific_Event"
+    ]
+  },
+  {
+    "Node1": "ParallelAndDistributedComputingTopic",
+    "Node2_1tom": [
+      "Individual_Presentation",
+      "Industrial_Paper",
+      "Academic_Institution",
+      "Late-Registered_Participant",
+      "Contributed_Talk",
+      "Early-Registered_Participant"
+    ],
+    "Node2_1to1": [
+      "Individual_Presentation"
+    ]
+  },
+  {
+    "Node1": "SignalProcessingTopic",
+    "Node2_1tom": [
+      "Proceedings",
+      "Session_Chair",
+      "Industrial_Session",
+      "Organisation",
+      "Proceedings_Publisher",
+      "Assigned_Paper"
+    ],
+    "Node2_1to1": [
+      "Proceedings"
+    ]
+  },
+  {
+    "Node1": "CommunicationTheoryTopic",
+    "Node2_1tom": [
+      "Academic_Institution",
+      "Document",
+      "Conference_Participant",
+      "Contributed_Talk",
+      "Organisation",
+      "Conference_Trip"
+    ],
+    "Node2_1to1": [
+      "Academic_Institution"
+    ]
+  },
+  {
+    "Node1": "CommunicationsTopic",
+    "Node2_1tom": [
+      "Academic_Institution",
+      "Organisation",
+      "Document",
+      "Conference_Participant",
+      "Conference_Trip",
+      "Contributed_Talk"
+    ],
+    "Node2_1to1": [
+      "Academic_Institution"
+    ]
+  },
+  {
+    "Node1": "MicroelectronicsTopic",
+    "Node2_1tom": [
+      "Conference_Participant",
+      "Conference_Trip",
+      "Academic_Institution",
+      "Proceedings",
+      "Conference_Proceedings",
+      "Scientific_Event"
+    ],
+    "Node2_1to1": [
+      "Conference_Participant"
+    ]
+  },
+  {
+    "Node1": "RadioCommunicationsTopic",
+    "Node2_1tom": [
+      "Academic_Institution",
+      "Organisation",
+      "Individual_Presentation",
+      "Tutorial_Chair",
+      "Conference_Participant",
+      "Demo_Chair"
+    ],
+    "Node2_1to1": [
+      "Academic_Institution"
+    ]
+  },
+  {
+    "Node1": "SatelliteAndSpaceCommunicationsTopic",
+    "Node2_1tom": [
+      "Academic_Institution",
+      "Social_Event",
+      "Conference_Participant",
+      "Individual_Presentation",
+      "Late-Registered_Participant",
+      "Scientific_Event"
+    ],
+    "Node2_1to1": [
+      "Academic_Institution"
+    ]
+  },
+  {
+    "Node1": "SecurityTopic",
+    "Node2_1tom": [
+      "Research_Institute",
+      "Academic_Institution",
+      "University",
+      "Conference_Participant",
+      "Late-Registered_Participant",
+      "Scientific_Event"
+    ],
+    "Node2_1to1": [
+      "Research_Institute"
+    ]
+  },
+  {
+    "Node1": "CADTopic",
+    "Node2_1tom": [
+      "Academic_Institution",
+      "PC_Chair",
+      "OC_Chair",
+      "Conference_Participant",
+      "Accepted_Paper",
+      "Tutorial_Chair"
+    ],
+    "Node2_1to1": [
+      "Academic_Institution"
+    ]
+  },
+  {
+    "Node1": "ComputerArchitectureTopic",
+    "Node2_1tom": [
+      "Conference_Participant",
+      "Research_Institute",
+      "Conference_Trip",
+      "Contributed_Talk",
+      "Late-Registered_Participant",
+      "Tutorial_Chair"
+    ],
+    "Node2_1to1": [
+      "Conference_Participant"
+    ]
+  },
+  {
+    "Node1": "PowerlineTransmissionTopic",
+    "Node2_1tom": [
+      "Industrial_Session",
+      "Individual_Presentation",
+      "Organisation",
+      "Poster_Session",
+      "Session_Chair",
+      "Academic_Institution"
+    ],
+    "Node2_1to1": [
+      "Industrial_Session"
+    ]
+  },
+  {
+    "Node1": "WirelessCommunicationsTopic",
+    "Node2_1tom": [
+      "Academic_Institution",
+      "Session_Chair",
+      "Industrial_Session",
+      "Social_Event",
+      "Scientific_Event",
+      "Individual_Presentation"
+    ],
+    "Node2_1to1": [
+      "Academic_Institution"
+    ]
+  },
+  {
+    "Node1": "PerformanceTopic",
+    "Node2_1tom": [
+      "Conference_Participant",
+      "Conference_Trip",
+      "Conference_Paper",
+      "Person",
+      "Conference_Proceedings",
+      "Proceedings"
+    ],
+    "Node2_1to1": [
+      "Conference_Participant"
+    ]
+  },
+  {
+    "Node1": "MobileComputingTopic",
+    "Node2_1tom": [
+      "Academic_Institution",
+      "Document",
+      "Contributed_Talk",
+      "Conference_Participant",
+      "Individual_Presentation",
+      "Proceedings_Publisher"
+    ],
+    "Node2_1to1": [
+      "Academic_Institution"
+    ]
+  },
+  {
+    "Node1": "MultimediaTopic",
+    "Node2_1tom": [
+      "Academic_Institution",
+      "Multi-author_Volume",
+      "Individual_Presentation",
+      "Tutorial",
+      "Tutorial_Chair",
+      "Invited_Talk"
+    ],
+    "Node2_1to1": [
+      "Academic_Institution"
+    ]
+  },
+  {
+    "Node1": "TestOnlyTopic",
+    "Node2_1tom": [
+      "Contributed_Talk",
+      "Social_Event",
+      "Academic_Institution",
+      "Tutorial",
+      "Person",
+      "Student"
+    ],
+    "Node2_1to1": [
+      "Contributed_Talk"
+    ]
+  },
+  {
+    "Node1": "ComputerNetworksTopic",
+    "Node2_1tom": [
+      "Conference_Trip",
+      "Conference_Participant",
+      "Contributed_Talk",
+      "Document",
+      "Research_Institute",
+      "Person"
+    ],
+    "Node2_1to1": [
+      "Conference_Trip"
+    ]
+  },
+  {
+    "Node1": "ComputerNetworksSwitchingTopic",
+    "Node2_1tom": [
+      "Conference_Participant",
+      "Research_Institute",
+      "Academic_Institution",
+      "Contributed_Talk",
+      "Conference_Trip",
+      "Proceedings"
+    ],
+    "Node2_1to1": [
+      "Conference_Participant"
+    ]
+  },
+  {
+    "Node1": "ComputerNetworksAapplicationsTopic",
+    "Node2_1tom": [
+      "Conference_Participant",
+      "Late-Registered_Participant",
+      "Academic_Institution",
+      "Contributed_Talk",
+      "Early-Registered_Participant",
+      "Industrial_Paper"
+    ],
+    "Node2_1to1": [
+      "Conference_Participant"
+    ]
+  },
+  {
+    "Node1": "ComputerNetworksMeasurementsTopic",
+    "Node2_1tom": [
+      "Research_Institute",
+      "Presenter",
+      "Conference_Trip",
+      "Document",
+      "Conference_Participant",
+      "Person"
+    ],
+    "Node2_1to1": [
+      "Research_Institute"
+    ]
+  },
+  {
+    "Node1": "ComputerNetworksSecurityTopic",
+    "Node2_1tom": [
+      "Research_Institute",
+      "Contributed_Talk",
+      "Conference_Trip",
+      "Conference_Participant",
+      "Late-Registered_Participant",
+      "Early-Registered_Participant"
+    ],
+    "Node2_1to1": [
+      "Research_Institute"
+    ]
+  },
+  {
+    "Node1": "ComputerNetworksOpticalTopic",
+    "Node2_1tom": [
+      "Contributed_Talk",
+      "Conference_Participant",
+      "Late-Registered_Participant",
+      "Tutorial",
+      "Conference_Trip",
+      "Academic_Institution"
+    ],
+    "Node2_1to1": [
+      "Contributed_Talk"
+    ]
+  },
+  {
+    "Node1": "ComputerNetworksEnterpriseTopic",
+    "Node2_1tom": [
+      "Conference_Trip",
+      "Presenter",
+      "Research_Institute",
+      "Conference_Participant",
+      "Proceedings",
+      "Poster_Paper"
+    ],
+    "Node2_1to1": [
+      "Conference_Trip"
+    ]
+  },
+  {
+    "Node1": "ComputerNetworksManagementTopic",
+    "Node2_1tom": [
+      "Conference_Participant",
+      "Document",
+      "Conference_Trip",
+      "Contributed_Talk",
+      "Late-Registered_Participant",
+      "Research_Institute"
+    ],
+    "Node2_1to1": [
+      "Conference_Participant"
+    ]
+  },
+  {
+    "Node1": "ComputerNetworksSensorTopic",
+    "Node2_1tom": [
+      "Poster_Session",
+      "Proceedings",
+      "Conference_Trip",
+      "Workshop_Session",
+      "Conference_Session",
+      "Conference_Proceedings"
+    ],
+    "Node2_1to1": [
+      "Poster_Session"
+    ]
+  },
+  {
+    "Node1": "OperatingTopicsystems",
+    "Node2_1tom": [
+      "Late-Registered_Participant",
+      "Early-Registered_Participant",
+      "Research_Institute",
+      "Poster_Session",
+      "Conference_Participant",
+      "Academic_Institution"
+    ],
+    "Node2_1to1": [
+      "Late-Registered_Participant"
+    ]
+  },
+  {
+    "Node1": "CryptographyTopic",
+    "Node2_1tom": [
+      "Paper_Author",
+      "Workshop_Paper",
+      "Accepted_Paper",
+      "Poster_Paper",
+      "Early-Registered_Participant",
+      "Workshop_Chair"
+    ],
+    "Node2_1to1": [
+      "Paper_Author"
+    ]
+  },
+  {
+    "Node1": "AntennasTopic",
+    "Node2_1tom": [
+      "Conference_Participant",
+      "Organisation",
+      "Academic_Institution",
+      "Individual_Presentation",
+      "Social_Event",
+      "Invited_Talk_Abstract"
+    ],
+    "Node2_1to1": [
+      "Conference_Participant"
+    ]
+  },
+  {
+    "Node1": "Place",
+    "Node2_1tom": [
+      "Track",
+      "Web_Site",
+      "Event",
+      "Accepted_Paper",
+      "Document",
+      "Review"
+    ],
+    "Node2_1to1": [
+      "Track"
+    ]
+  },
+  {
+    "Node1": "AccommodationPlace",
+    "Node2_1tom": [
+      "Demo_Chair",
+      "Conference_Participant",
+      "Document",
+      "Academic_Institution",
+      "OC_Chair",
+      "Social_Event"
+    ],
+    "Node2_1to1": [
+      "Demo_Chair"
+    ]
+  },
+  {
+    "Node1": "DiningPlace",
+    "Node2_1tom": [
+      "Individual_Presentation",
+      "Conference_Participant",
+      "Proceedings",
+      "Academic_Institution",
+      "Organising_Agency",
+      "Industrial_Paper"
+    ],
+    "Node2_1to1": [
+      "Individual_Presentation"
+    ]
+  },
+  {
+    "Node1": "ConferenceVenuePlace",
+    "Node2_1tom": [
+      "Conference",
+      "Conference_Paper",
+      "Conference_Banquet",
+      "Conference_Proceedings",
+      "Conference_Trip",
+      "Conference_Session"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "MeetingRoomPlace",
+    "Node2_1tom": [
+      "Conference_Proceedings",
+      "Proceedings",
+      "OC_Member",
+      "Conference_Trip",
+      "Conference_Paper",
+      "Conference_Participant"
+    ],
+    "Node2_1to1": [
+      "Conference_Proceedings"
+    ]
+  },
+  {
+    "Node1": "ConferenceSession",
+    "Node2_1tom": [
+      "Conference_Trip",
+      "Conference_Paper",
+      "Conference_Banquet",
+      "Conference_Participant",
+      "Proceedings",
+      "Demo_Session"
+    ],
+    "Node2_1to1": [
+      "Conference_Trip"
+    ]
+  }
+]

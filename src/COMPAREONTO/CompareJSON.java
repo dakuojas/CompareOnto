@@ -22,20 +22,20 @@ public class CompareJSON
 //		USE THIS TO CREATE "ALIGNMENT.json". SEE UJCreator.java
 //		UJCreator ujc = new UJCreator();	
 		
-		String file1 = "REFERENCE.json";
-		String file2 = "ALIGNMENT.json";
+		String file1 = "alignments/json-reference-alignments/cmt-edas.json";
+		String file2 = "alignments/json-generated-alignments/TVPPRp_cmt-edas.json";
 		
-//		String file1 = "Reference_NDBC-GomooSe.json";
-//		String file2 = "Output_TAVPPRp_NDBC-GomooSe.json";
+//		String file1 = "REFERENCE.json";
+//		String file2 = "ALIGNMENT.json";
 
 		JSONIO jsonio = new JSONIO();
 		
 		alREF = jsonio.read(file1);
 		alALIGN = jsonio.read(file2);
 		
-//		jsonio.print(file1);
-//		jsonio.print(file2);
-
+		jsonio.print(file1);
+		jsonio.print(file2);
+		
 		int sizeofALIGN_1to1 = getSize(alALIGN , ONE2ONE);
 		int sizeofALIGN_1tom = getSize(alALIGN , ONE2MANY); 
 		int sizeofREF_1to1 = getSize(alREF , ONE2ONE);
@@ -59,11 +59,11 @@ public class CompareJSON
 		AMINR1to1 = DIFFERENCE(alALIGN, alREF, ONE2ONE);
 		
 //		UNCOMMENT THE FOLLOWING FOR DEBUGGING
-//		System.out.println("DIFF 1to1: "+ RMINA1to1);
+		System.out.println("DIFF 1to1: "+ RMINA1to1);
 		System.out.println("1to1 FP : "+countinside(RMINA1to1));
-//		System.out.println("DIFF 1to1 REV: "+ AMINR1to1);
+		System.out.println("DIFF 1to1 REV: "+ AMINR1to1);
 		System.out.println("1to1 FN: "+countinside(AMINR1to1));
-//		System.out.println("INTERSECTION 1to1 : "+INTER1to1);
+		System.out.println("INTERSECTION 1to1 : "+INTER1to1);
 		System.out.println("1to1 TP: "+INTER1to1.size());
 		
 //		FORMAT : PrecisionRecall(TP,FP,FN)
@@ -90,11 +90,11 @@ public class CompareJSON
 		
 
 //		UNCOMMENT THE FOLLOWING FOR DEBUGGING
-//		System.out.println("DIFF 1tom : "+RMINA1tom);
+		System.out.println("DIFF 1tom : "+RMINA1tom);
 		System.out.println("1tom FP: "+countinside(RMINA1tom));
-//		System.out.println("DIFF 1tom REV: "+AMINR1tom);
+		System.out.println("DIFF 1tom REV: "+AMINR1tom);
 		System.out.println("1tom FN: "+countinside(AMINR1tom));
-//		System.out.println("INTERSECTION 1tom : "+INTER1tom);
+		System.out.println("INTERSECTION 1tom : "+INTER1tom);
 		System.out.println("1tom TP: "+INTER1tom.size());
 
 //		FORMAT : PrecisionRecall(TP,FP,FN)

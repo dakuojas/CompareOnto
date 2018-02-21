@@ -1,0 +1,464 @@
+[
+  {
+    "Node1": "SubjectArea",
+    "Node2_1tom": [
+      "Extended_abstract",
+      "Abstract",
+      "Registeered_applicant",
+      "Submitted_contribution",
+      "Camera_ready_contribution",
+      "Passive_conference_participant"
+    ],
+    "Node2_1to1": [
+      "Extended_abstract"
+    ]
+  },
+  {
+    "Node1": "Preference",
+    "Node2_1tom": [
+      "Conference",
+      "Conference_part",
+      "Conference_proceedings",
+      "Reviewer",
+      "Conference_volume",
+      "Conference_document"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Person",
+    "Node2_1tom": [
+      "Person",
+      "Committee_member",
+      "Presentation",
+      "Conference_proceedings",
+      "Paper",
+      "Conference_part"
+    ],
+    "Node2_1to1": [
+      "Person"
+    ]
+  },
+  {
+    "Node1": "ConferenceMember",
+    "Node2_1tom": [
+      "Conference_volume",
+      "Conference_part",
+      "Conference_document",
+      "Conference_announcement",
+      "Conference_proceedings",
+      "Conference_www"
+    ],
+    "Node2_1to1": [
+      "Conference_volume"
+    ]
+  },
+  {
+    "Node1": "Author",
+    "Node2_1tom": [
+      "Regular_author",
+      "Tutorial",
+      "Poster",
+      "Regular_contribution",
+      "Chair",
+      "Publisher"
+    ],
+    "Node2_1to1": [
+      "Regular_author"
+    ]
+  },
+  {
+    "Node1": "AuthorNotReviewer",
+    "Node2_1tom": [
+      "Reviewed_contribution",
+      "Reviewer",
+      "Regular_contribution",
+      "Conference_contributor",
+      "Presentation",
+      "Rejected_contribution"
+    ],
+    "Node2_1to1": [
+      "Reviewed_contribution"
+    ]
+  },
+  {
+    "Node1": "Co-author",
+    "Node2_1tom": [
+      "Contribution_co-author",
+      "Co-chair",
+      "Track-workshop_chair",
+      "Camera_ready_contribution",
+      "Regular_contribution",
+      "Accepted_contribution"
+    ],
+    "Node2_1to1": [
+      "Contribution_co-author"
+    ]
+  },
+  {
+    "Node1": "AssociatedChair",
+    "Node2_1tom": [
+      "Chair",
+      "Passive_conference_participant",
+      "Co-chair",
+      "Camera_ready_contribution",
+      "Abstract",
+      "Active_conference_participant"
+    ],
+    "Node2_1to1": [
+      "Chair"
+    ]
+  },
+  {
+    "Node1": "ConferenceChair",
+    "Node2_1tom": [
+      "Conference_participant",
+      "Conference_proceedings",
+      "Conference_applicant",
+      "Conference_www",
+      "Conference_fees",
+      "Conference_contributor"
+    ],
+    "Node2_1to1": [
+      "Conference_participant"
+    ]
+  },
+  {
+    "Node1": "Reviewer",
+    "Node2_1tom": [
+      "Reviewer",
+      "Reviewed_contribution",
+      "Registeered_applicant",
+      "Invited_speaker",
+      "Conference_fees",
+      "Poster"
+    ],
+    "Node2_1to1": [
+      "Reviewer"
+    ]
+  },
+  {
+    "Node1": "Meta-Reviewer",
+    "Node2_1tom": [
+      "Reviewer",
+      "Review",
+      "Invited_speaker",
+      "Steering_committee",
+      "Committee_member",
+      "Organizing_committee"
+    ],
+    "Node2_1to1": [
+      "Reviewer"
+    ]
+  },
+  {
+    "Node1": "ProgramCommitteeMember",
+    "Node2_1tom": [
+      "Program_committee",
+      "Organizing_committee",
+      "Steering_committee",
+      "Camera_ready_contribution",
+      "Important_dates",
+      "Registeered_applicant"
+    ],
+    "Node2_1to1": [
+      "Program_committee"
+    ]
+  },
+  {
+    "Node1": "ProgramCommitteeChair",
+    "Node2_1tom": [
+      "Program_committee",
+      "Organizing_committee",
+      "Camera_ready_contribution",
+      "Committee_member",
+      "Important_dates",
+      "Steering_committee"
+    ],
+    "Node2_1to1": [
+      "Program_committee"
+    ]
+  },
+  {
+    "Node1": "Chairman",
+    "Node2_1tom": [
+      "Track-workshop_chair",
+      "Camera_ready_contribution",
+      "Poster",
+      "Information_for_participants",
+      "Call_for_participation",
+      "Organization"
+    ],
+    "Node2_1to1": [
+      "Track-workshop_chair"
+    ]
+  },
+  {
+    "Node1": "ExternalReviewer",
+    "Node2_1tom": [
+      "Review",
+      "Invited_speaker",
+      "Registeered_applicant",
+      "Extended_abstract",
+      "Conference_part",
+      "Conference_fees"
+    ],
+    "Node2_1to1": [
+      "Review"
+    ]
+  },
+  {
+    "Node1": "User",
+    "Node2_1tom": [
+      "Poster",
+      "Chair",
+      "Publisher",
+      "Reviewer",
+      "Committee_member",
+      "Steering_committee"
+    ],
+    "Node2_1to1": [
+      "Poster"
+    ]
+  },
+  {
+    "Node1": "Author",
+    "Node2_1tom": [
+      "Regular_author",
+      "Tutorial",
+      "Poster",
+      "Regular_contribution",
+      "Chair",
+      "Publisher"
+    ],
+    "Node2_1to1": [
+      "Regular_author"
+    ]
+  },
+  {
+    "Node1": "AuthorNotReviewer",
+    "Node2_1tom": [
+      "Reviewed_contribution",
+      "Reviewer",
+      "Regular_contribution",
+      "Conference_contributor",
+      "Presentation",
+      "Rejected_contribution"
+    ],
+    "Node2_1to1": [
+      "Reviewed_contribution"
+    ]
+  },
+  {
+    "Node1": "Co-author",
+    "Node2_1tom": [
+      "Contribution_co-author",
+      "Co-chair",
+      "Track-workshop_chair",
+      "Camera_ready_contribution",
+      "Regular_contribution",
+      "Accepted_contribution"
+    ],
+    "Node2_1to1": [
+      "Contribution_co-author"
+    ]
+  },
+  {
+    "Node1": "Reviewer",
+    "Node2_1tom": [
+      "Reviewer",
+      "Reviewed_contribution",
+      "Registeered_applicant",
+      "Invited_speaker",
+      "Conference_fees",
+      "Poster"
+    ],
+    "Node2_1to1": [
+      "Reviewer"
+    ]
+  },
+  {
+    "Node1": "Meta-Reviewer",
+    "Node2_1tom": [
+      "Reviewer",
+      "Review",
+      "Invited_speaker",
+      "Steering_committee",
+      "Committee_member",
+      "Organizing_committee"
+    ],
+    "Node2_1to1": [
+      "Reviewer"
+    ]
+  },
+  {
+    "Node1": "Administrator",
+    "Node2_1tom": [
+      "Person",
+      "Important_dates",
+      "Information_for_participants",
+      "Camera_ready_contribution",
+      "Organization",
+      "Abstract"
+    ],
+    "Node2_1to1": [
+      "Person"
+    ]
+  },
+  {
+    "Node1": "Decision",
+    "Node2_1tom": [
+      "Organization",
+      "Topic",
+      "Person",
+      "Conference_proceedings",
+      "Presentation",
+      "Conference_contribution"
+    ],
+    "Node2_1to1": [
+      "Organization"
+    ]
+  },
+  {
+    "Node1": "Rejection",
+    "Node2_1tom": [
+      "Rejected_contribution",
+      "Conference_contribution",
+      "Conference_contributor",
+      "Presentation",
+      "Conference_proceedings",
+      "Organization"
+    ],
+    "Node2_1to1": [
+      "Rejected_contribution"
+    ]
+  },
+  {
+    "Node1": "Acceptance",
+    "Node2_1tom": [
+      "Conference_applicant",
+      "Active_conference_participant",
+      "Conference_participant",
+      "Accepted_contribution",
+      "Passive_conference_participant",
+      "Conference_part"
+    ],
+    "Node2_1to1": [
+      "Conference_applicant"
+    ]
+  },
+  {
+    "Node1": "Bid",
+    "Node2_1tom": [
+      "Organization",
+      "Presentation",
+      "Abstract",
+      "Topic",
+      "Review",
+      "Workshop"
+    ],
+    "Node2_1to1": [
+      "Organization"
+    ]
+  },
+  {
+    "Node1": "Document",
+    "Node2_1tom": [
+      "Conference_document",
+      "Presentation",
+      "Review",
+      "Paper",
+      "Topic",
+      "Poster"
+    ],
+    "Node2_1to1": [
+      "Conference_document"
+    ]
+  },
+  {
+    "Node1": "Review",
+    "Node2_1tom": [
+      "Reviewed_contribution",
+      "Abstract",
+      "Organization",
+      "Paper",
+      "Presentation",
+      "Invited_speaker"
+    ],
+    "Node2_1to1": [
+      "Reviewed_contribution"
+    ]
+  },
+  {
+    "Node1": "Meta-Review",
+    "Node2_1tom": [
+      "Reviewed_contribution",
+      "Reviewer",
+      "Invited_speaker",
+      "Steering_committee",
+      "Committee_member",
+      "Organizing_committee"
+    ],
+    "Node2_1to1": [
+      "Reviewed_contribution"
+    ]
+  },
+  {
+    "Node1": "Paper",
+    "Node2_1tom": [
+      "Paper",
+      "Presentation",
+      "Review",
+      "Track",
+      "Organization",
+      "Person"
+    ],
+    "Node2_1to1": [
+      "Paper"
+    ]
+  },
+  {
+    "Node1": "PaperFullVersion",
+    "Node2_1tom": [
+      "Paper",
+      "Registeered_applicant",
+      "Call_for_paper",
+      "Person",
+      "Publisher",
+      "Passive_conference_participant"
+    ],
+    "Node2_1to1": [
+      "Paper"
+    ]
+  },
+  {
+    "Node1": "PaperAbstract",
+    "Node2_1tom": [
+      "Paper",
+      "Abstract",
+      "Registeered_applicant",
+      "Extended_abstract",
+      "Late_paid_applicant",
+      "Early_paid_applicant"
+    ],
+    "Node2_1to1": [
+      "Paper"
+    ]
+  },
+  {
+    "Node1": "ProgramCommittee",
+    "Node2_1tom": [
+      "Program_committee",
+      "Organizing_committee",
+      "Committee_member",
+      "Steering_committee",
+      "Important_dates",
+      "Camera_ready_contribution"
+    ],
+    "Node2_1to1": [
+      "Program_committee"
+    ]
+  }
+]

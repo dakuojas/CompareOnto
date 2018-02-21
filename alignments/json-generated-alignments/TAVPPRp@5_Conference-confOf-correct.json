@@ -1,0 +1,800 @@
+[
+  {
+    "Node1": "Conference",
+    "Node2_1tom": [
+      "Conference",
+      "Organization",
+      "City",
+      "Topic",
+      "Country",
+      "Social_event"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Conference_volume",
+    "Node2_1tom": [
+      "Conference",
+      "Company",
+      "University",
+      "Tutorial",
+      "Reception",
+      "Social_event"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Important_dates",
+    "Node2_1tom": [
+      "Administrative_event",
+      "Organization",
+      "Topic",
+      "Country",
+      "Social_event",
+      "Registration_of_participants_event"
+    ],
+    "Node2_1to1": [
+      "Administrative_event"
+    ]
+  },
+  {
+    "Node1": "Organization",
+    "Node2_1tom": [
+      "Organization",
+      "Company",
+      "Country",
+      "Event",
+      "Topic",
+      "City"
+    ],
+    "Node2_1to1": [
+      "Organization"
+    ]
+  },
+  {
+    "Node1": "Conference_part",
+    "Node2_1tom": [
+      "Conference",
+      "Working_event",
+      "Country",
+      "Social_event",
+      "Organization",
+      "Topic"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Track",
+    "Node2_1tom": [
+      "University",
+      "Company",
+      "Organization",
+      "Conference",
+      "Trip",
+      "Reception"
+    ],
+    "Node2_1to1": [
+      "University"
+    ]
+  },
+  {
+    "Node1": "Workshop",
+    "Node2_1tom": [
+      "Workshop",
+      "Event",
+      "Reception",
+      "Company",
+      "Trip",
+      "Tutorial"
+    ],
+    "Node2_1to1": [
+      "Workshop"
+    ]
+  },
+  {
+    "Node1": "Tutorial",
+    "Node2_1tom": [
+      "Tutorial",
+      "Conference",
+      "University",
+      "Company",
+      "Registration_of_participants_event",
+      "Trip"
+    ],
+    "Node2_1to1": [
+      "Tutorial"
+    ]
+  },
+  {
+    "Node1": "Committee",
+    "Node2_1tom": [
+      "Organization",
+      "Country",
+      "Topic",
+      "City",
+      "Administrative_event",
+      "Company"
+    ],
+    "Node2_1to1": [
+      "Organization"
+    ]
+  },
+  {
+    "Node1": "Program_committee",
+    "Node2_1tom": [
+      "Registration_of_participants_event",
+      "Reception",
+      "Reviewing_results_event",
+      "Company",
+      "University",
+      "Camera_Ready_event"
+    ],
+    "Node2_1to1": [
+      "Registration_of_participants_event"
+    ]
+  },
+  {
+    "Node1": "Organizing_committee",
+    "Node2_1tom": [
+      "Reception",
+      "Company",
+      "University",
+      "Organization",
+      "Registration_of_participants_event",
+      "Administrative_event"
+    ],
+    "Node2_1to1": [
+      "Reception"
+    ]
+  },
+  {
+    "Node1": "Steering_committee",
+    "Node2_1tom": [
+      "University",
+      "Company",
+      "Reception",
+      "Reviewing_results_event",
+      "Conference",
+      "Registration_of_participants_event"
+    ],
+    "Node2_1to1": [
+      "University"
+    ]
+  },
+  {
+    "Node1": "Conference_document",
+    "Node2_1tom": [
+      "Conference",
+      "Social_event",
+      "Working_event",
+      "Reception",
+      "Administrative_event",
+      "Event"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Call_for_paper",
+    "Node2_1tom": [
+      "Reception",
+      "Camera_Ready_event",
+      "Registration_of_participants_event",
+      "Conference",
+      "Reviewing_results_event",
+      "Reviewing_event"
+    ],
+    "Node2_1to1": [
+      "Reception"
+    ]
+  },
+  {
+    "Node1": "Information_for_participants",
+    "Node2_1tom": [
+      "Registration_of_participants_event",
+      "Organization",
+      "Reviewing_event",
+      "Camera_Ready_event",
+      "Tutorial",
+      "Trip"
+    ],
+    "Node2_1to1": [
+      "Registration_of_participants_event"
+    ]
+  },
+  {
+    "Node1": "Call_for_participation",
+    "Node2_1tom": [
+      "Registration_of_participants_event",
+      "Camera_Ready_event",
+      "Tutorial",
+      "Reviewing_event",
+      "Topic",
+      "Organization"
+    ],
+    "Node2_1to1": [
+      "Registration_of_participants_event"
+    ]
+  },
+  {
+    "Node1": "Review",
+    "Node2_1tom": [
+      "Reviewing_event",
+      "Reviewing_results_event",
+      "Registration_of_participants_event",
+      "Social_event",
+      "Camera_Ready_event",
+      "Workshop"
+    ],
+    "Node2_1to1": [
+      "Reviewing_event"
+    ]
+  },
+  {
+    "Node1": "Conference_announcement",
+    "Node2_1tom": [
+      "Conference",
+      "Tutorial",
+      "Reception",
+      "Camera_Ready_event",
+      "Event",
+      "Registration_of_participants_event"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Conference_contribution",
+    "Node2_1tom": [
+      "Conference",
+      "Administrative_event",
+      "Reception",
+      "Social_event",
+      "Registration_of_participants_event",
+      "Working_event"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Written_contribution",
+    "Node2_1tom": [
+      "Administrative_event",
+      "Registration_of_participants_event",
+      "University",
+      "Reception",
+      "Company",
+      "Tutorial"
+    ],
+    "Node2_1to1": [
+      "Administrative_event"
+    ]
+  },
+  {
+    "Node1": "Regular_contribution",
+    "Node2_1tom": [
+      "Registration_of_participants_event",
+      "Tutorial",
+      "Administrative_event",
+      "Reception",
+      "University",
+      "Organization"
+    ],
+    "Node2_1to1": [
+      "Registration_of_participants_event"
+    ]
+  },
+  {
+    "Node1": "Extended_abstract",
+    "Node2_1tom": [
+      "Administrative_event",
+      "Company",
+      "University",
+      "Registration_of_participants_event",
+      "Social_event",
+      "Event"
+    ],
+    "Node2_1to1": [
+      "Administrative_event"
+    ]
+  },
+  {
+    "Node1": "Abstract",
+    "Node2_1tom": [
+      "Reviewing_results_event",
+      "Administrative_event",
+      "Topic",
+      "Reception",
+      "Reviewing_event",
+      "Company"
+    ],
+    "Node2_1to1": [
+      "Reviewing_results_event"
+    ]
+  },
+  {
+    "Node1": "Paper",
+    "Node2_1tom": [
+      "Reception",
+      "Conference",
+      "Company",
+      "Organization",
+      "University",
+      "Trip"
+    ],
+    "Node2_1to1": [
+      "Reception"
+    ]
+  },
+  {
+    "Node1": "Submitted_contribution",
+    "Node2_1tom": [
+      "Submission_event",
+      "Administrative_event",
+      "University",
+      "Tutorial",
+      "Registration_of_participants_event",
+      "Social_event"
+    ],
+    "Node2_1to1": [
+      "Submission_event"
+    ]
+  },
+  {
+    "Node1": "Reviewed_contribution",
+    "Node2_1tom": [
+      "Reviewing_results_event",
+      "Reviewing_event",
+      "Company",
+      "University",
+      "Reception",
+      "Administrative_event"
+    ],
+    "Node2_1to1": [
+      "Reviewing_results_event"
+    ]
+  },
+  {
+    "Node1": "Accepted_contribution",
+    "Node2_1tom": [
+      "Registration_of_participants_event",
+      "Reception",
+      "Social_event",
+      "Administrative_event",
+      "Tutorial",
+      "Topic"
+    ],
+    "Node2_1to1": [
+      "Registration_of_participants_event"
+    ]
+  },
+  {
+    "Node1": "Camera_ready_contribution",
+    "Node2_1tom": [
+      "Camera_Ready_event",
+      "Registration_of_participants_event",
+      "Reception",
+      "Company",
+      "University",
+      "Administrative_event"
+    ],
+    "Node2_1to1": [
+      "Camera_Ready_event"
+    ]
+  },
+  {
+    "Node1": "Rejected_contribution",
+    "Node2_1tom": [
+      "Reception",
+      "Registration_of_participants_event",
+      "Company",
+      "Administrative_event",
+      "Reviewing_results_event",
+      "University"
+    ],
+    "Node2_1to1": [
+      "Reception"
+    ]
+  },
+  {
+    "Node1": "Poster",
+    "Node2_1tom": [
+      "Registration_of_participants_event",
+      "Reception",
+      "Company",
+      "Submission_event",
+      "Topic",
+      "Workshop"
+    ],
+    "Node2_1to1": [
+      "Registration_of_participants_event"
+    ]
+  },
+  {
+    "Node1": "Presentation",
+    "Node2_1tom": [
+      "Registration_of_participants_event",
+      "Reception",
+      "Administrative_event",
+      "Social_event",
+      "Event",
+      "Working_event"
+    ],
+    "Node2_1to1": [
+      "Registration_of_participants_event"
+    ]
+  },
+  {
+    "Node1": "Invited_talk",
+    "Node2_1tom": [
+      "Registration_of_participants_event",
+      "Company",
+      "Administrative_event",
+      "University",
+      "Conference",
+      "Tutorial"
+    ],
+    "Node2_1to1": [
+      "Registration_of_participants_event"
+    ]
+  },
+  {
+    "Node1": "Conference_www",
+    "Node2_1tom": [
+      "Conference",
+      "Tutorial",
+      "Reviewing_event",
+      "Working_event",
+      "Registration_of_participants_event",
+      "Camera_Ready_event"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Topic",
+    "Node2_1tom": [
+      "Topic",
+      "City",
+      "Event",
+      "Social_event",
+      "Country",
+      "Reception"
+    ],
+    "Node2_1to1": [
+      "Topic"
+    ]
+  },
+  {
+    "Node1": "Conference_proceedings",
+    "Node2_1tom": [
+      "Conference",
+      "Country",
+      "City",
+      "Social_event",
+      "Topic",
+      "Reception"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Person",
+    "Node2_1tom": [
+      "Company",
+      "Working_event",
+      "Country",
+      "Event",
+      "Social_event",
+      "Reception"
+    ],
+    "Node2_1to1": [
+      "Company"
+    ]
+  },
+  {
+    "Node1": "Conference_contributor",
+    "Node2_1tom": [
+      "Conference",
+      "Administrative_event",
+      "Reception",
+      "Country",
+      "Working_event",
+      "Tutorial"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Active_conference_participant",
+    "Node2_1tom": [
+      "Conference",
+      "Registration_of_participants_event",
+      "Tutorial",
+      "Reception",
+      "Workshop",
+      "Trip"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Regular_author",
+    "Node2_1tom": [
+      "Tutorial",
+      "Administrative_event",
+      "Registration_of_participants_event",
+      "Social_event",
+      "Reviewing_results_event",
+      "Company"
+    ],
+    "Node2_1to1": [
+      "Tutorial"
+    ]
+  },
+  {
+    "Node1": "Contribution_1th-author",
+    "Node2_1tom": [
+      "Tutorial",
+      "Conference",
+      "Company",
+      "Registration_of_participants_event",
+      "University",
+      "Reception"
+    ],
+    "Node2_1to1": [
+      "Tutorial"
+    ]
+  },
+  {
+    "Node1": "Contribution_co-author",
+    "Node2_1tom": [
+      "Tutorial",
+      "Company",
+      "Conference",
+      "Registration_of_participants_event",
+      "Reception",
+      "University"
+    ],
+    "Node2_1to1": [
+      "Tutorial"
+    ]
+  },
+  {
+    "Node1": "Invited_speaker",
+    "Node2_1tom": [
+      "Administrative_event",
+      "Trip",
+      "Reviewing_event",
+      "Reviewing_results_event",
+      "Camera_Ready_event",
+      "Workshop"
+    ],
+    "Node2_1to1": [
+      "Administrative_event"
+    ]
+  },
+  {
+    "Node1": "Committee_member",
+    "Node2_1tom": [
+      "Registration_of_participants_event",
+      "Company",
+      "Event",
+      "Conference",
+      "Administrative_event",
+      "Reception"
+    ],
+    "Node2_1to1": [
+      "Registration_of_participants_event"
+    ]
+  },
+  {
+    "Node1": "Co-chair",
+    "Node2_1tom": [
+      "Company",
+      "Social_event",
+      "University",
+      "Tutorial",
+      "Conference",
+      "Country"
+    ],
+    "Node2_1to1": [
+      "Company"
+    ]
+  },
+  {
+    "Node1": "Chair",
+    "Node2_1tom": [
+      "Trip",
+      "Reception",
+      "Workshop",
+      "Company",
+      "University",
+      "Event"
+    ],
+    "Node2_1to1": [
+      "Trip"
+    ]
+  },
+  {
+    "Node1": "Reviewer",
+    "Node2_1tom": [
+      "Camera_Ready_event",
+      "Reviewing_event",
+      "Reviewing_results_event",
+      "Submission_event",
+      "Reception",
+      "Registration_of_participants_event"
+    ],
+    "Node2_1to1": [
+      "Camera_Ready_event"
+    ]
+  },
+  {
+    "Node1": "Track-workshop_chair",
+    "Node2_1tom": [
+      "Workshop",
+      "Registration_of_participants_event",
+      "Working_event",
+      "Camera_Ready_event",
+      "Trip",
+      "Reviewing_event"
+    ],
+    "Node2_1to1": [
+      "Workshop"
+    ]
+  },
+  {
+    "Node1": "Conference_applicant",
+    "Node2_1tom": [
+      "Conference",
+      "Administrative_event",
+      "Social_event",
+      "Reception",
+      "Company",
+      "Working_event"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Registeered_applicant",
+    "Node2_1tom": [
+      "Company",
+      "Reception",
+      "Administrative_event",
+      "Social_event",
+      "Registration_of_participants_event",
+      "University"
+    ],
+    "Node2_1to1": [
+      "Company"
+    ]
+  },
+  {
+    "Node1": "Paid_applicant",
+    "Node2_1tom": [
+      "Company",
+      "Administrative_event",
+      "University",
+      "Registration_of_participants_event",
+      "Reception",
+      "Working_event"
+    ],
+    "Node2_1to1": [
+      "Company"
+    ]
+  },
+  {
+    "Node1": "Early_paid_applicant",
+    "Node2_1tom": [
+      "Company",
+      "Registration_of_participants_event",
+      "Camera_Ready_event",
+      "Conference",
+      "University",
+      "Social_event"
+    ],
+    "Node2_1to1": [
+      "Company"
+    ]
+  },
+  {
+    "Node1": "Late_paid_applicant",
+    "Node2_1tom": [
+      "Registration_of_participants_event",
+      "Social_event",
+      "Company",
+      "Tutorial",
+      "University",
+      "Camera_Ready_event"
+    ],
+    "Node2_1to1": [
+      "Registration_of_participants_event"
+    ]
+  },
+  {
+    "Node1": "Conference_participant",
+    "Node2_1tom": [
+      "Conference",
+      "Registration_of_participants_event",
+      "Reception",
+      "Social_event",
+      "Administrative_event",
+      "Working_event"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Active_conference_participant",
+    "Node2_1tom": [
+      "Conference",
+      "Registration_of_participants_event",
+      "Reception",
+      "University",
+      "Company",
+      "Social_event"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Passive_conference_participant",
+    "Node2_1tom": [
+      "Conference",
+      "Registration_of_participants_event",
+      "University",
+      "Company",
+      "Reception",
+      "Social_event"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Publisher",
+    "Node2_1tom": [
+      "Country",
+      "City",
+      "Company",
+      "Conference",
+      "Topic",
+      "Submission_event"
+    ],
+    "Node2_1to1": [
+      "Country"
+    ]
+  },
+  {
+    "Node1": "Conference_fees",
+    "Node2_1tom": [
+      "Conference",
+      "Event",
+      "Country",
+      "City",
+      "Topic",
+      "Reception"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  }
+]

@@ -1,0 +1,464 @@
+[
+  {
+    "Node1": "SubjectArea",
+    "Node2_1tom": [
+      "Camera_Ready_event",
+      "Banquet",
+      "Submission_event",
+      "Social_event",
+      "Reviewing_results_event",
+      "Administrative_event"
+    ],
+    "Node2_1to1": [
+      "Camera_Ready_event"
+    ]
+  },
+  {
+    "Node1": "Preference",
+    "Node2_1tom": [
+      "Reception",
+      "Reviewing_event",
+      "Reviewing_results_event",
+      "Camera_Ready_event",
+      "Event",
+      "Working_event"
+    ],
+    "Node2_1to1": [
+      "Reception"
+    ]
+  },
+  {
+    "Node1": "Person",
+    "Node2_1tom": [
+      "Reception",
+      "Workshop",
+      "Conference",
+      "Submission_event",
+      "Working_event",
+      "Organization"
+    ],
+    "Node2_1to1": [
+      "Reception"
+    ]
+  },
+  {
+    "Node1": "ConferenceMember",
+    "Node2_1tom": [
+      "Reception",
+      "Camera_Ready_event",
+      "Reviewing_event",
+      "Event",
+      "Reviewing_results_event",
+      "Country"
+    ],
+    "Node2_1to1": [
+      "Reception"
+    ]
+  },
+  {
+    "Node1": "Author",
+    "Node2_1tom": [
+      "Tutorial",
+      "Country",
+      "Company",
+      "Organization",
+      "Registration_of_participants_event",
+      "Administrative_event"
+    ],
+    "Node2_1to1": [
+      "Tutorial"
+    ]
+  },
+  {
+    "Node1": "AuthorNotReviewer",
+    "Node2_1tom": [
+      "Working_event",
+      "Reception",
+      "Reviewing_results_event",
+      "Registration_of_participants_event",
+      "Reviewing_event",
+      "Administrative_event"
+    ],
+    "Node2_1to1": [
+      "Working_event"
+    ]
+  },
+  {
+    "Node1": "Co-author",
+    "Node2_1tom": [
+      "Country",
+      "Tutorial",
+      "Company",
+      "Conference",
+      "Organization",
+      "Banquet"
+    ],
+    "Node2_1to1": [
+      "Country"
+    ]
+  },
+  {
+    "Node1": "AssociatedChair",
+    "Node2_1tom": [
+      "Social_event",
+      "Registration_of_participants_event",
+      "Administrative_event",
+      "Organization",
+      "Camera_Ready_event",
+      "Tutorial"
+    ],
+    "Node2_1to1": [
+      "Social_event"
+    ]
+  },
+  {
+    "Node1": "ConferenceChair",
+    "Node2_1tom": [
+      "Conference",
+      "Reception",
+      "Country",
+      "Camera_Ready_event",
+      "Social_event",
+      "Company"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Reviewer",
+    "Node2_1tom": [
+      "Working_event",
+      "Reception",
+      "Camera_Ready_event",
+      "Event",
+      "Registration_of_participants_event",
+      "Conference"
+    ],
+    "Node2_1to1": [
+      "Working_event"
+    ]
+  },
+  {
+    "Node1": "Meta-Reviewer",
+    "Node2_1tom": [
+      "Working_event",
+      "Administrative_event",
+      "Event",
+      "Reception",
+      "Social_event",
+      "Registration_of_participants_event"
+    ],
+    "Node2_1to1": [
+      "Working_event"
+    ]
+  },
+  {
+    "Node1": "ProgramCommitteeMember",
+    "Node2_1tom": [
+      "Reception",
+      "Camera_Ready_event",
+      "Administrative_event",
+      "Registration_of_participants_event",
+      "Reviewing_results_event",
+      "Working_event"
+    ],
+    "Node2_1to1": [
+      "Reception"
+    ]
+  },
+  {
+    "Node1": "ProgramCommitteeChair",
+    "Node2_1tom": [
+      "Reception",
+      "Registration_of_participants_event",
+      "Camera_Ready_event",
+      "Administrative_event",
+      "Tutorial",
+      "Organization"
+    ],
+    "Node2_1to1": [
+      "Reception"
+    ]
+  },
+  {
+    "Node1": "Chairman",
+    "Node2_1tom": [
+      "Company",
+      "Organization",
+      "City",
+      "Camera_Ready_event",
+      "Conference",
+      "Administrative_event"
+    ],
+    "Node2_1to1": [
+      "Company"
+    ]
+  },
+  {
+    "Node1": "ExternalReviewer",
+    "Node2_1tom": [
+      "Camera_Ready_event",
+      "Event",
+      "Working_event",
+      "Reception",
+      "Administrative_event",
+      "Conference"
+    ],
+    "Node2_1to1": [
+      "Camera_Ready_event"
+    ]
+  },
+  {
+    "Node1": "User",
+    "Node2_1tom": [
+      "University",
+      "Company",
+      "Reviewing_results_event",
+      "Country",
+      "Tutorial",
+      "Submission_event"
+    ],
+    "Node2_1to1": [
+      "University"
+    ]
+  },
+  {
+    "Node1": "Author",
+    "Node2_1tom": [
+      "Tutorial",
+      "Country",
+      "Company",
+      "Organization",
+      "Registration_of_participants_event",
+      "Administrative_event"
+    ],
+    "Node2_1to1": [
+      "Tutorial"
+    ]
+  },
+  {
+    "Node1": "AuthorNotReviewer",
+    "Node2_1tom": [
+      "Working_event",
+      "Reception",
+      "Reviewing_results_event",
+      "Registration_of_participants_event",
+      "Reviewing_event",
+      "Administrative_event"
+    ],
+    "Node2_1to1": [
+      "Working_event"
+    ]
+  },
+  {
+    "Node1": "Co-author",
+    "Node2_1tom": [
+      "Country",
+      "Tutorial",
+      "Company",
+      "Conference",
+      "Organization",
+      "Banquet"
+    ],
+    "Node2_1to1": [
+      "Country"
+    ]
+  },
+  {
+    "Node1": "Reviewer",
+    "Node2_1tom": [
+      "Working_event",
+      "Reception",
+      "Camera_Ready_event",
+      "Event",
+      "Registration_of_participants_event",
+      "Conference"
+    ],
+    "Node2_1to1": [
+      "Working_event"
+    ]
+  },
+  {
+    "Node1": "Meta-Reviewer",
+    "Node2_1tom": [
+      "Working_event",
+      "Administrative_event",
+      "Event",
+      "Reception",
+      "Social_event",
+      "Registration_of_participants_event"
+    ],
+    "Node2_1to1": [
+      "Working_event"
+    ]
+  },
+  {
+    "Node1": "Administrator",
+    "Node2_1tom": [
+      "Registration_of_participants_event",
+      "Organization",
+      "Tutorial",
+      "Trip",
+      "University",
+      "Company"
+    ],
+    "Node2_1to1": [
+      "Registration_of_participants_event"
+    ]
+  },
+  {
+    "Node1": "Decision",
+    "Node2_1tom": [
+      "Reviewing_results_event",
+      "Reception",
+      "Submission_event",
+      "Event",
+      "Organization",
+      "Topic"
+    ],
+    "Node2_1to1": [
+      "Reviewing_results_event"
+    ]
+  },
+  {
+    "Node1": "Rejection",
+    "Node2_1tom": [
+      "Conference",
+      "Event",
+      "Organization",
+      "Social_event",
+      "Registration_of_participants_event",
+      "Reviewing_event"
+    ],
+    "Node2_1to1": [
+      "Conference"
+    ]
+  },
+  {
+    "Node1": "Acceptance",
+    "Node2_1tom": [
+      "Reception",
+      "Organization",
+      "Conference",
+      "Topic",
+      "Camera_Ready_event",
+      "Event"
+    ],
+    "Node2_1to1": [
+      "Reception"
+    ]
+  },
+  {
+    "Node1": "Bid",
+    "Node2_1tom": [
+      "Organization",
+      "Topic",
+      "Event",
+      "Workshop",
+      "Social_event",
+      "Reception"
+    ],
+    "Node2_1to1": [
+      "Organization"
+    ]
+  },
+  {
+    "Node1": "Document",
+    "Node2_1tom": [
+      "Topic",
+      "Country",
+      "Social_event",
+      "Reception",
+      "Conference",
+      "Working_event"
+    ],
+    "Node2_1to1": [
+      "Topic"
+    ]
+  },
+  {
+    "Node1": "Review",
+    "Node2_1tom": [
+      "Reviewing_results_event",
+      "Social_event",
+      "Organization",
+      "Working_event",
+      "Event",
+      "Reception"
+    ],
+    "Node2_1to1": [
+      "Reviewing_results_event"
+    ]
+  },
+  {
+    "Node1": "Meta-Review",
+    "Node2_1tom": [
+      "Reviewing_results_event",
+      "Administrative_event",
+      "Working_event",
+      "Event",
+      "Social_event",
+      "Registration_of_participants_event"
+    ],
+    "Node2_1to1": [
+      "Reviewing_results_event"
+    ]
+  },
+  {
+    "Node1": "Paper",
+    "Node2_1tom": [
+      "Reception",
+      "Organization",
+      "Company",
+      "Trip",
+      "University",
+      "Conference"
+    ],
+    "Node2_1to1": [
+      "Reception"
+    ]
+  },
+  {
+    "Node1": "PaperFullVersion",
+    "Node2_1tom": [
+      "Reception",
+      "Reviewing_results_event",
+      "Social_event",
+      "Registration_of_participants_event",
+      "University",
+      "Reviewing_event"
+    ],
+    "Node2_1to1": [
+      "Reception"
+    ]
+  },
+  {
+    "Node1": "PaperAbstract",
+    "Node2_1tom": [
+      "Registration_of_participants_event",
+      "Camera_Ready_event",
+      "Trip",
+      "Tutorial",
+      "University",
+      "Banquet"
+    ],
+    "Node2_1to1": [
+      "Registration_of_participants_event"
+    ]
+  },
+  {
+    "Node1": "ProgramCommittee",
+    "Node2_1tom": [
+      "Reception",
+      "Registration_of_participants_event",
+      "Camera_Ready_event",
+      "Administrative_event",
+      "Tutorial",
+      "Topic"
+    ],
+    "Node2_1to1": [
+      "Reception"
+    ]
+  }
+]

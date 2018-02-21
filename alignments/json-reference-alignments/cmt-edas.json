@@ -1,0 +1,81 @@
+[
+	
+		{ 	"node1": "Person", 
+			"node2_1to1" :["Person"],
+			"node2_1tom": [""]
+		}
+	,
+	
+		{	"node1": "Conference",
+			"node2_1to1":["Conference"],
+			"node2_1tom" : [""]
+                }
+	,
+	 
+		{ 	"node1": "Author", 
+			"node2_1to1" :["Author"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Reviewer", 
+			"node2_1to1" :["Reviewer"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "hasConferenceMember", 
+			"node2_1to1" :["hasMember"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "memberOfConference", 
+			"node2_1to1" :["isMemberOf"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "ConferenceChair", 
+			"node2_1to1" :["ConferenceChair"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Review", 
+			"node2_1to1" :["Review"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Document", 
+			"node2_1to1" :["Document"],
+			"node2_1tom": [""]
+		}
+	,
+
+	 
+		{ 	"node1": "Paper", 
+			"node2_1to1" :["Paper"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "hasAuthor", 
+			"node2_1to1" :["isWrittenBy"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "hasBeenAssigned", 
+			"node2_1to1" :["isReviewing"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "assignedTo", 
+			"node2_1to1" :["isReviewedBy"],
+			"node2_1tom": [""]
+		}
+	
+]

@@ -1,0 +1,141 @@
+[
+	
+		{ 	"node1": "ConferenceDinner", 
+			"node2_1to1" :["Conference_Banquet"],
+			"node2_1tom": [""]
+		}
+	,
+	
+		{	"node1": "AcademicEvent",
+			"node2_1to1":["Scientific_Event"],
+			"node2_1tom" : [""]
+        }
+	,
+	 
+		{ 	"node1": "AcceptedPaper", 
+			"node2_1to1" :["Accepted_Paper"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "isReviewedBy", 
+			"node2_1to1" :["hasReviewer"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Place", 
+			"node2_1to1" :["Location"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "AcademiaOrganization", 
+			"node2_1to1" :["Academic_Institution"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "SocialEvent", 
+			"node2_1to1" :["Social_Event"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "isReviewing", 
+			"node2_1to1" :["reviewerOfPaper"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Organization", 
+			"node2_1to1" :["Organisation"],
+			"node2_1tom": [""]
+		}
+	,
+
+	 
+		{ 	"node1": "Author", 
+			"node2_1to1" :["Paper_Author"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "isLocationOf", 
+			"node2_1to1" :["locationOf"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Topic", 
+			"node2_1to1" :["Research_Topic"],
+			"node2_1tom": [""]
+		}
+	,
+	 
+		{ 	"node1": "Document", 
+			"node2_1to1" :["Document"],
+			"node2_1tom": [""]
+		}
+    ,
+    
+        { 	"node1": "RejectedPaper", 
+			"node2_1to1" :["Rejected_Paper"],
+			"node2_1tom": [""]
+		}
+	,
+    
+        { 	"node1": "ConferenceEvent", 
+			"node2_1to1" :["Event"],
+			"node2_1tom": [""]
+		}
+	,
+    
+        { 	"node1": "SessionChair", 
+			"node2_1to1" :["Session_Chair"],
+			"node2_1tom": [""]
+		}
+	,
+    
+        { 	"node1": "Person", 
+			"node2_1to1" :["Person"],
+			"node2_1tom": [""]
+		}
+	,
+    
+        { 	"node1": "Programme", 
+			"node2_1to1" :["Programme_Brochure"],
+			"node2_1tom": [""]
+		}
+	,
+    
+        { 	"node1": "Review", 
+			"node2_1to1" :["Review"],
+			"node2_1tom": [""]
+		}
+	,
+    
+        { 	"node1": "Workshop", 
+			"node2_1to1" :["Workshop"],
+			"node2_1tom": [""]
+		}
+	,
+    
+        { 	"node1": "Paper", 
+			"node2_1to1" :["Paper"],
+			"node2_1tom": [""]
+		}
+	,
+    
+        { 	"node1": "Attendee", 
+			"node2_1to1" :["Conference_Participant"],
+			"node2_1tom": [""]
+		}
+	,
+    
+        { 	"node1": "hasLocation", 
+			"node2_1to1" :["heldIn"],
+			"node2_1tom": [""]
+		}
+
+]
